@@ -8,8 +8,7 @@
                 <a href="#">behance </a>
                 <a href="#">dribbble </a>
             </div>
-            <p>Copyright © 2018 Hetic, All rights Reserved. <br />
-                Created by tavonline</p>
+            <p>Copyright © 2018 Hetic, All rights Reserved. <br /></p>
         </div>
     </footer>
 
