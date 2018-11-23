@@ -4,7 +4,7 @@ Plugin Name: Ultimate Addons for WPBakery Page Builder
 Plugin URI: https://brainstormforce.com/demos/ultimate/
 Author: Brainstorm Force
 Author URI: https://www.brainstormforce.com
-Version: 3.16.24
+Version: 3.17.0
 Description: Includes WPBakery Page Builder premium addon elements like Icon, Info Box, Interactive Banner, Flip Box, Info List & Counter. Best of all - provides A Font Icon Manager allowing users to upload / delete custom icon fonts.
 Text Domain: ultimate_vc
 License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -13,11 +13,6 @@ License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2
 // Refresh bundled products on activate
 
 register_activation_hook( __FILE__, 'on_ultimate_vc_addons_activate' );
-
-/* NULLED BY NULLEDFORUMS.TO */
-$brainstrom = get_option( 'brainstrom_products' );
-$brainstrom['plugins']['6892199']['status'] = 'registered';
-update_option( 'brainstrom_products', $brainstrom );
 
 function on_ultimate_vc_addons_activate() {
 	update_site_option( 'bsf_force_check_extensions', true );
@@ -28,7 +23,7 @@ if ( ! defined( '__ULTIMATE_ROOT__' ) ) {
 }
 
 if ( ! defined( 'ULTIMATE_VERSION' ) ) {
-	define( 'ULTIMATE_VERSION', '3.16.24' );
+	define( 'ULTIMATE_VERSION', '3.17.0' );
 }
 
 if ( ! defined( 'ULTIMATE_URL' ) ) {
@@ -128,6 +123,8 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 
 			add_action( 'wp_head', array( $this, 'ultimate_init_vars' ) );
 			add_filter( 'bsf_skip_braisntorm_menu', array( $this, 'uavc_skip_brainstorm_menu' ) );
+			add_action('wp_enqueue_scripts',array($this,'front_modal_menu'));
+
 		}
 
 		/**
@@ -329,6 +326,15 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 		{
 			load_plugin_textdomain('ultimate_vc', FALSE, dirname(plugin_basename(__FILE__)).'/languages/');
 		}
+		function front_modal_menu() {
+			$ultimate_modal_menu = bsf_get_option('ultimate_modal_menu');
+			if($ultimate_modal_menu === "enable") {	
+			wp_enqueue_style('ultimate-modal');
+			 wp_enqueue_script('ultimate-modal-all');
+
+			}
+		}
+
 
 		function aio_init()
 		{
@@ -463,6 +469,7 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 					|| stripos( $post_content, '[ult_team')
 					|| stripos( $post_content, '[ultimate_fancytext')
 					|| stripos( $post_content, '[ult_range_slider')
+					|| stripos( $post_content, '[ultimate_video')
 					|| $found_ultimate_backgrounds
 				) {
 				return true;
@@ -675,8 +682,13 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 				wp_enqueue_script('jquery.vhparallax', $js_path.'vhparallax'.$ext.'.js');
 
 				wp_enqueue_style('ultimate-style-min');
+				if( is_rtl() ) 
+					{
+					wp_enqueue_style( 'ult_hotspot_rtl_css' );
+					}
 				wp_enqueue_style("ult-icons");
 				wp_enqueue_style('ultimate-vidcons', UAVC_URL.'assets/fonts/vidcons.css');
+				wp_enqueue_script('ultimate-row-bg', $js_path.'ultimate_bg'.$ext.'.js');
 				wp_enqueue_script('jquery.ytplayer', $js_path.'mb-YTPlayer'.$ext.'.js');
 
 				$Ultimate_Google_Font_Manager = new Ultimate_Google_Font_Manager;
@@ -749,6 +761,7 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 					}
 
 					wp_enqueue_script('ultimate-script');
+					wp_enqueue_script('ultimate-row-bg', $js_path.'ultimate_bg'.$ext.'.js');
 
 					if( stripos( $post_content, '[ultimate_modal') ) {
 						//$modal_fixer = get_option('ultimate_modal_fixer');
@@ -790,6 +803,9 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 					}
 					if( stripos( $post_content, '[ultimate_heading') ) {
 						wp_enqueue_script("ultimate-headings-script");
+					}
+					if( stripos( $post_content, '[ultimate_video') ) {
+						wp_enqueue_script("ultimate-videos-script");
 					}
 					if( stripos( $post_content, '[ultimate_carousel') ) {
 						wp_enqueue_script('ult-slick');
@@ -961,6 +977,9 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 					if( stripos( $post_content, '[ultimate_heading') ) {
 						wp_enqueue_style("ultimate-headings-style");
 					}
+					if( stripos( $post_content, '[ultimate_video') ) {
+						wp_enqueue_style("ultimate-videos-style");
+					}
 					if( stripos( $post_content, '[ultimate_icons') || stripos( $post_content, '[single_icon')) {
 						wp_enqueue_style('ultimate-animate');
 						wp_enqueue_style('ultimate-tooltip');
@@ -996,6 +1015,9 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 					if( stripos( $post_content, '[icon_timeline') ) {
 						wp_enqueue_style('ultimate-animate');
 						wp_enqueue_style('ultimate-timeline-style');
+						if( is_rtl() ) {
+							wp_enqueue_style( 'ult_hotspot_rtl_css' );
+						}
 					}
 					if( stripos( $post_content, '[just_icon') ) {
 						wp_enqueue_style('ultimate-animate');
@@ -1160,6 +1182,7 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 				'ultimate_sticky_section',
 				'ultimate_team',
 				'ultimate_range_slider',
+				'ultimate_videos',
 			);
 			$ultimate_modules = get_option('ultimate_modules');
 			if(!$ultimate_modules && !is_array($ultimate_modules)){

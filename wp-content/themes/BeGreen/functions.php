@@ -18,14 +18,3 @@ function menus_du_themes() {
   register_nav_menu( 'header', 'Menu principal' );
 }
 ?>
-
-<?php // SYNTAXE : wp_nav_menu( array $args = array() )
-$args=array(
-    'theme_location' => 'header', // nom du slug
-    'menu' => 'header_fr', // nom à donner cette occurence du menu
-    'menu_class' => 'menu_header', // class à attribuer au menu
-    'menu_id' => 'menu_id' // id à attribuer au menu
-    // voir les autres arguments possibles sur le codex
-);
-wp_nav_menu($args);
-?>
