@@ -60,6 +60,10 @@ nav ul li a:hover{
     float: left;
 }
 
+.logo img{
+    max-height: 30px;
+}
+
  .responsive{
     display: none;
     font-size: 23px;
@@ -420,8 +424,8 @@ input:-webkit-autofill {
 }
 
 .home-diag{
-    /*fill: #e9f8f3 !important;
-    stroke: #e9f8f3 !important;*/
+    fill: #e9f8f3 !important;
+    stroke: #e9f8f3 !important;
 }
 
 .diagonal.home-left, .diagonal.home-right {
@@ -1112,6 +1116,10 @@ a.site-button{
     
     nav{
         padding:30px 15px;
+    }
+
+    nav .logo{
+        max-height: 80px;
     }
     
     .nav-menu{
