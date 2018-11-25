@@ -1,0 +1,103 @@
+/* -----------------------------------------------------------------------------
+
+  SLAB TEXT
+  
+----------------------------------------------------------------------------- */
+.slabtexted .slabtext
+    {
+    display: -moz-inline-box;
+    display: inline-block;
+    white-space: nowrap;
+    }
+.slabtextinactive .slabtext
+    {
+    display: inline;
+    white-space: normal;
+    font-size: 1em !important;
+    letter-spacing: inherit !important;
+    word-spacing: inherit !important;
+    *letter-spacing: normal !important;
+    *word-spacing: normal !important;
+    }
+.slabtextdone .slabtext
+    {
+    display: block;
+    }
+
+#vcmp-slab-text span:nth-child(2)
+.slabtext-linesize-0 { line-height:.9; }
+
+h1.slabtextdone {
+	text-align:left;
+	font-family:"Oswald", "Arial Black", Gadget, sans-serif;
+	text-transform:uppercase;
+	line-height:1 !important;
+	color:#222;
+}
+
+h1.slabtextdone a
+	{
+	text-decoration:none;
+	}
+h1.slabtextdone a:hover
+	{
+	color:#a82222;
+	}
+h1.slabtextdone, h2.slabtextdone
+            {
+            font-weight:700;
+            }
+			
+@media screen and (min-width: 460px)
+            {
+                h1.slabtextdone
+                    {
+                    font-size:26px;
+                    }
+                h2.slabtextdone
+                    {
+                    font-size:18px;
+                    }
+            }
+        @media screen and (min-width: 760px)
+            {
+
+                .col-1 h1,
+                .col-2 h1
+                    {
+                    font-size: 26px;
+                    }
+                h1.slabtextdone
+                    {
+                    font-size:28px;
+                    }
+                h2.slabtextdone
+                    {
+                    font-size:20px;
+                    }
+            }
+        @media screen and (min-width: 960px)
+            {
+
+                h1.slabtextdone,
+                .col-1 h1,
+                .col-2 h1
+                    {
+                    font-size:36px;
+                    }
+                h2
+                    {
+                    font-size:22px;
+                    }
+            }
+        @media screen and (min-width: 1180px)
+            {
+                h1.slabtextdone
+                    {
+                    font-size:46px;
+                    }
+                h2.slabtextdone
+                    {
+                    font-size:32px;
+                    }
+            }

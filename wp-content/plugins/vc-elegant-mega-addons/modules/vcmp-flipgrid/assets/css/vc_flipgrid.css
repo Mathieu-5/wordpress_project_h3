@@ -1,0 +1,155 @@
+/* -----------------------------------------------------------------------------
+
+  FLIP GRID
+  
+----------------------------------------------------------------------------- */
+.griddershare { display: inline-table; width: 100%; margin-top:20px !important}
+.griddershare .share-btn { background: #fff; border-radius: 100%; color: #999; display: inline-table; height: 30px; line-height: 18px; margin-right: 3px !important; padding: 5px !important; text-align: center; width: 32px; position: relative !important;}
+.griddershare .share-btn:hover { color: #000; text-decoration:none;}
+
+.vcmp_flipgrid {
+  width: 100%;
+  height: 100%;
+}
+
+.vc_flipgrid_content {
+  float: left;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.vc_flipgrid_content img {
+  width: 100%;
+  height: 101%;
+}
+.vc_flipgrid_content li {
+  float: left;
+  border-bottom: 1px solid #2c2c2c;
+  border-left: 1px solid #2c2c2c;
+  width: 33.3%;
+  height: 33%;
+  position: relative;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.vc_flipgrid_innercontent img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+  
+/* Colors Hover */
+.vc_flipgrid_content li:hover {
+  cursor: pointer;
+}
+.vc_flipgrid_content li:hover .vc_flipgrid_cardfront {
+  -moz-transform: rotateX(50deg);
+  -ms-transform: rotateX(50deg);
+  -webkit-transform: rotateX(50deg);
+  transform: rotateX(50deg);
+  -moz-transform: perspective(1000) rotateX(50deg);
+  -webkit-transform: perspective(1000) rotateX(50deg);
+  transform: perspective(1000) rotateX(50deg);
+}
+.vc_flipgrid_content li:hover .vc_flipgrid_cardback {
+  z-index: 950;
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -moz-transform: perspective(1000) rotateX(0deg);
+  -webkit-transform: perspective(1000) rotateX(0deg);
+  transform: perspective(1000) rotateX(0deg);
+}
+
+.vc_flipgrid_content .vc_flipgrid_cardfront,
+.vc_flipgrid_content .vc_flipgrid_cardback {
+  text-align: left;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-transition: -moz-transform 400ms;
+  -o-transition: -o-transform 400ms;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  padding:20px;
+}
+.vc_flipgrid_content .vc_flipgrid_cardfront {
+  -moz-transform: perspective(1000) rotateX(0);
+  -webkit-transform: perspective(1000) rotateX(0);
+  transform: perspective(1000) rotateX(0);
+  z-index: 900;
+}
+.vc_flipgrid_content .vc_flipgrid_cardback {
+  -moz-transform: rotateX(-180deg);
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+  z-index: 800;
+}
+.vc_flipgrid_content h2 {
+  font-size: 85%;
+  float: right;
+  width: 100%;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color:#fff;
+  line-height: 1;
+}
+.vc_flipgrid_content p {
+  line-height: 1.6;
+}
+.vc_flipgrid_content .vc_flipgrid_innercontent {
+  line-height: 1.3em;
+  color: #fff;
+  width: 100%;
+}
+
+.vc_flipgrid_close {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #fff;
+  color: #111;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 10px 20px;
+}
+
+.active {
+  width: 100% !important;
+  height: 100% !important;
+}
+.active .vc_flipgrid_all_content {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  padding: 20px;
+  height:600px;
+  overflow:auto;
+}
+.active .vc_flipgrid_all_content h1 {
+  font-size: 80px;
+  width: 100%;
+  text-align:left;
+}
+
+@media screen and (max-width: 960px) {
+  .vc_flipgrid_content li {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .vc_flipgrid_content li {
+    width: 100%;
+  }
+}

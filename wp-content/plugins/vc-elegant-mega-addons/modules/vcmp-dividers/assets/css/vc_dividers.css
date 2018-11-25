@@ -1,0 +1,14 @@
+/* -----------------------------------------------------------------------------
+
+  ELEGANT MEGA ADDONS DIVIDER
+  
+----------------------------------------------------------------------------- */
+.vcmp_divider_modern { position: relative; text-align: center; line-height: 1.2; margin: 10px 0;}
+.vcmp_divider_modern::before { content: ""; display: block; position: absolute; top: 50%; width: 100%; }
+.vcmp_divider_modern a { text-decoration: none }
+.vcmp_divider_modern .vcmp_divider_title { display: inline-block; background: #fff; font-size: 12px; line-height:1.6; padding: 3px 8px 2px 12px; color: rgba(0, 0, 0, 0.6); position: relative; margin: 0; }
+.vcmp_divider_modern .vcmp_divider_title:hover { border-color: rgba(0, 0, 0, 0.6); color: rgba(0, 0, 0, 0.8);}
+.vcmp_divider_modern .vcmp_divider_title:active {outline: 0;}
+.left {float:left;}
+.right {float:right; margin-left: 5px;}
+.centertop {width:100% !important; display:block !important; text-align: center !important;}

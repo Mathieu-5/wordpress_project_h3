@@ -1,0 +1,21 @@
+/*--------------------------------------------------
+Doughnut Chart
+--------------------------------------------------*/
+.vcmp-doughnut-text, .field-text {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.vcmp-doughnut {
+	text-align: center;
+}
+.vcmp-doughnut canvas{
+    left: 50%;
+    transform: translatex(-50%);
+    position: absolute;
+}
+.vcmp-doughnut-text {
+	text-align: center;
+	display: block;
+}

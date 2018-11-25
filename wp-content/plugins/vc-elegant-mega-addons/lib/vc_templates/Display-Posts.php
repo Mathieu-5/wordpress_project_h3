@@ -1,0 +1,1 @@
+[vc_row][vc_column][vcmp_display_posts display_posts_types="post" display_posts_limit="8" display_posts_date="true" display_posts_category="true" display_posts_title="true" display_posts_excerpt="true" display_posts_time="true" display_posts_comments="true"][/vc_column][/vc_row]

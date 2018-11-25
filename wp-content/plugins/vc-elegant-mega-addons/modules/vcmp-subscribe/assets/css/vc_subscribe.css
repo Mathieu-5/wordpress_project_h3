@@ -1,0 +1,110 @@
+/*--------------------------------------------------
+Subscribe Form
+--------------------------------------------------*/
+.vcmp_subscribe_form {
+  padding: 20px;
+  background-color: #00b5b5;
+  text-align: center;
+}
+.vcmp_subscribe_form h1 {
+  margin: 0.5em 0;
+  font-size: 3em;
+  color: #fff;
+}
+.vcmp_subscribe_form > p {
+    text-align: center;
+	max-width: 80%;
+    margin: 20px auto !important;
+}
+.vcmp_subscribe_form .vcmp_subscribe_btn {
+  background-color: transparent;
+  border: 3px solid #fff;
+  padding: 0.5em 2em;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+.vcmp_subscribe_form .vcmp_subscribe_btn:hover {
+  background-color: #fff;
+  color: #00b5b5;
+}
+
+.vcmp_subscribe_content {
+  padding: 2em 1em;
+}
+.vcmp_subscribe_content .vcmp_subscribe_btn {
+	background-color: transparent;
+	border: 3px solid #f1654c;
+	padding: 0.5em 2em;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+	color: #f1654c;
+	font-weight: 700;
+	cursor: pointer;
+	outline: none;
+}
+
+#vcmp_subscribe_form {
+	position: absolute;
+	padding: 1em 1em;
+	box-sizing: border-box;
+	display: none;
+	color: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #3e4651;
+	text-align: center;
+}
+#vcmp_subscribe_form h2 {
+	font-size: 2em;
+	margin: 0.5em;
+}
+#vcmp_subscribe_form > form {
+	max-width: 80%;
+	margin: auto;
+}
+#vcmp_subscribe_form .vcmp_subscribe_btn {
+	font-size: 11px;
+	position: absolute;
+	top: 2em;
+	right: 9%;
+	background-color: transparent;
+	border: 0;
+	color: #ddd;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	outline: none;
+}
+#vcmp_subscribe_form .vcmp_subscribe_btn:hover {
+	color: #ccc;
+}
+#vcmp_subscribe_form input[type=text] {
+	border: 2px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+    height: 45px;
+    padding: 5px 10px;
+    width: 50%;
+}
+#vcmp_subscribe_form input[type=submit] {
+  background-color: transparent;
+  border: 3px solid #f1654c;
+  padding: 0.5em 2em;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  height: 44px;
+}
+#vcmp_subscribe_form input[type=submit]:hover {
+  background-color: #f1654c;
+  color: #ccc;
+}

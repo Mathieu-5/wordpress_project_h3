@@ -1,0 +1,50 @@
+.gridder{margin:0 !important;padding:0 !important;list-style-type:none}
+.griddercol {width: 48%; float: left; position: relative;padding-right: 15px;}
+.gridder-list{display:inline-block;vertical-align:top; max-height: height: 125px;}
+.gridder-show{display:block;float:left;width:100%;position:relative;background:#EEE url("../img/loading-spin.svg") no-repeat center}
+.gridder-show.loading{background:#EEE url("../img/loading-spin.svg") no-repeat center}
+.gridder-content{display:none}
+.gridder-list{width:19.5%; height: 230px;}
+.gridder-list .img-responsive { margin-bottom: 0; }
+.gridder-list:nth-child(n){margin: 0 2px 4px 0;}
+.gridder-list:nth-of-type(5n){margin-right:0px}
+.gridder-show{padding:20px;background:#EEE;margin-bottom:1%}
+.gridder-navigation .gridder-nav.disabled{opacity:.5}
+.gridder-list{cursor:pointer}
+.gridder-list:hover{opacity:0.8}
+.hasSelectedItem .gridder-list{}
+.hasSelectedItem .gridder-list.selectedItem{opacity:1}
+.gridder-navigation { margin-bottom: -10px;margin-right: -20px; margin-top: -20px; text-align: right;}
+.gridder-navigation a{background:#FFF;display:inline-block;padding:10px;color:#000;text-decoration:none;font-size:14px;margin-right:0px;transition:all .3s ease-in-out}
+.gridder-navigation a:hover{background:#000;color:#FFF}
+.gridder-navigation a.disabled{opacity:0}
+.gridder-expanded-content{animation-name:fadeIn;animation-duration:.3s;animation-fill-mode:both}
+.griddershare .share-btn { background: #fff; border-radius: 100%; color: #999; display: inline-table; height: 32px; line-height: 21px; margin-right: 3px; padding: 5px; text-align: center; width: 32px; }
+.griddershare .share-btn:hover { color: #000; text-decoration:none;}
+
+@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
+
+/* ====================================================================================================================
+ * RESPONSIVE
+ * ====================================================================================================================*/
+ @media screen and (max-width: 1360px) {
+	.gridder-list {
+		width: 32.8%;
+	}
+}
+@media screen and (max-width: 960px) {
+	.gridder-list {
+		width: 49.4%;
+		height: 260px;
+	}
+	.griddercol {
+		width: 100%;
+		float: none;
+	}
+}
+@media screen and (max-width: 760px) {
+	.gridder-list {
+		width: 100%;
+		height: 300px;
+	}
+}

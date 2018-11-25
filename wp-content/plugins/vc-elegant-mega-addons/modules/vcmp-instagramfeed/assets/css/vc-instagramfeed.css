@@ -1,0 +1,113 @@
+a.il-load-more {
+	background: #517FA4;
+	display: inline-block;
+	margin: 0 0 40px 0;
+	padding: 20px;
+	font-size: 14px;
+	line-height: 14px;
+	text-decoration: none;
+	border-radius: 6px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+}
+
+a.il-load-more:hover {
+	background: #125688;
+}
+
+.vcmp-instagramfeed {
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 100%;
+}
+
+.vcmp-instagramfeed li {
+
+	list-style: none;
+	margin: 0 0 40px 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+
+.insta-item-list {
+    position: relative;
+}
+.vcmp-center{
+    text-align:center;
+}
+.vcmp-instagramfeed {
+    margin: 30px 0;
+    position: relative;
+}
+
+.vcmp-instagramfeed li img,
+.vcmp-instagramfeed li video {
+	border-bottom: 1px #ccc solid;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.il-photo_meta {
+    background: rgba(0, 0, 0, 0.76); 
+    padding: 5px 10px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} 
+
+.il-photo_likes {
+    float: left;
+}
+
+.il-photo_comments {
+    float: right;
+}
+
+.il-photo_caption {
+	margin: 0 0 20px 0;
+}
+
+.il-photo_caption a {
+	color:#ffffff;
+}
+
+.il-photo_likes:before {
+	content: "Likes: ";
+}
+
+.il-photo_comments:before {
+	content: "Comments: ";
+}
+
+@media screen and (min-width: 600px) {
+	
+	.vcmp-instagramfeed li {
+		margin: 0 40px 40px 0;
+		width: calc(50% - 20px);
+	}
+	
+	.vcmp-instagramfeed li:nth-child(2n+2) {
+		margin-right: 0;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	
+	.vcmp-instagramfeed li {
+		margin: 0 40px 40px 0;
+		width: calc(25% - 30px);
+	}
+	
+	.vcmp-instagramfeed li:nth-child(2n+2) {
+		margin-right: 40px;
+	}
+	
+	.vcmp-instagramfeed li:nth-child(4n+4) {
+		margin-right: 0;
+	}
+}

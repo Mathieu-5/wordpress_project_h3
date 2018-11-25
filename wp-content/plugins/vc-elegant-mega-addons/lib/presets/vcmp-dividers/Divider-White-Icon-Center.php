@@ -1,0 +1,13 @@
+[vc_row][vc_column][vcmp_dividers vcmpdividers_bgcolor="#ffffff" vcmpdividers_title="Icon Centered" google_fonts="font_family:Coda%3Aregular%2C800|font_style:400%20regular%3A400%3Anormal" font_container="tag:h2|font_size:16px|text_align:left|color:%23000000|font_style_bold:1" icon_alignment="centertop" icon_type="entypo" dividers="" icon_entypo="entypo-icon entypo-icon-note"][/vc_column][/vc_row]
+{
+  "vcmpsettings": {
+    "vcmpdividers_bgcolor": "#ffffff",
+	"vcmpdividers_line_color": "#e2e2e2",
+	"vcmpdividers_title": "Divider With Link",
+	"vcmpdividers_url": "#",
+	"use_custom_for_content": "true",
+	"google_fonts": "font_family:Condiment%3Aregular|font_style:400%20regular%3A400%3Anormal",
+	"font_container": "tag:h2|text_align:left|color:%23000000|line_height:1.6|font_style_bold:1",
+	"css": ".vc_custom_1481095694026{border-top-width: 1px !important;border-bottom-width: 1px !important;background-color: #eeee22 !important;border-top-color: #81d742 !important;border-top-style: dotted !important;border-bottom-color: #81d742 !important;border-bottom-style: dotted !important;}"
+  }
+}

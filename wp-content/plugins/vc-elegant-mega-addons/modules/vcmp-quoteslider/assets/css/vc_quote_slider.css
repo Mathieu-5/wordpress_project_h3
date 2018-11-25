@@ -1,0 +1,25 @@
+/* -----------------------------------------------------------------------------
+
+	QUOTE SLIDER
+  
+----------------------------------------------------------------------------- */
+.gallery-quote .flexslider { margin: 0 0 60px; padding: 0; border: none; box-shadow: none; background: none; }
+.gallery-quote .flexslider .slides li { position: relative; z-index: 1; margin: auto;}
+.gallery-quote .flexslider .slides li .text { position: absolute; bottom: 0; left: 0; padding: 0 15px; z-index: 2; }
+.gallery-quote .flex-direction-nav { bottom: 0; width: 70px; margin: 10px auto; position: relative; list-style: none;}
+.gallery-quote .flex-direction-nav li { margin: 0px auto;}
+.gallery-quote .flex-direction-nav a { opacity: 1; width: 30px; height: 30px; border: 2px solid #777; border-radius: 30px; text-align: center; margin-top: 0; }
+.gallery-quote .flex-direction-nav a:before { font-family: FontAwesome; content: '\f104'; color: #777; font-size: 30px; line-height: 30px; top: -2px; left: -2px; position: relative; }
+.gallery-quote .flex-direction-nav .flex-prev { left: 0; }
+.gallery-quote .flex-direction-nav .flex-next { right: 0; }
+.gallery-quote .flex-direction-nav .flex-next:before { content: '\f105'; left: 2px; }
+.gallery-quote .flexslider .slides img { display: block; margin: 10px auto; width: 100%; }
+.flexslider:hover .flex-direction-nav .flex-prev { left: 2px; }
+.flexslider:hover .flex-direction-nav .flex-next { right: 2px; }
+
+/*--------------------------------------------------
+	Blockquote formatting
+--------------------------------------------------*/
+.gallery-quote blockquote { font-size: 18px; line-height: 24px; color: #777; text-align: center; border: none; }
+.gallery-quote blockquote .quote-title { margin-top: 20px; font-size: 16px; color: #9f9f9f; font-weight: normal; display: block; text-transform: none; }
+.gallery-quote blockquote .quote-title:before, blockquote .quote-title:after { content: ' '; width: 20px; height: 1px; background: #9f9f9f; display: inline-block; margin: 0 5px; position: relative; top: -5px; }

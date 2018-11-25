@@ -1,0 +1,136 @@
+/* -----------------------------------------------------------------------------
+
+  FULL PAGE PARALLAX SCROLL
+  
+----------------------------------------------------------------------------- */
+#vcmp_fullpage_parallax_wrapper {
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.griddershare { display: block; width: 100%; margin-top:10px !important}
+.griddershare .share-btn { background: #fff; border-radius: 100%; color: #999; display: inline-table; height: 32px; line-height: 22px; margin-right: 3px !important; padding: 5px !important; text-align: center; width: 32px; position: relative !important;}
+.griddershare .share-btn:hover { color: #000; text-decoration:none;}
+
+.vcmp_fullpage_parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: 130vh;
+  position: fixed;
+  width: 100%;
+  -webkit-transform: translateY(30vh);
+          transform: translateY(30vh);
+  -webkit-transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+}
+.vcmp_fullpage_parallax:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.vcmp_fullpage_parallax:first-child {
+  background-image: url(http://s8.postimg.org/lf2udl5np/4_Aihmii.jpg);
+  -webkit-transform: translateY(-15vh);
+          transform: translateY(-15vh);
+}
+.vcmp_fullpage_parallax:first-child .content-wrapper {
+  -webkit-transform: translateY(15vh);
+          transform: translateY(15vh);
+}
+.vcmp_fullpage_parallax:nth-child(2) {
+  background-image: url(http://s8.postimg.org/ow4wgk4px/ugqti_Lg.jpg);
+}
+.vcmp_fullpage_parallax:nth-child(3) {
+  background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
+}
+
+/* Set stacking context of slides */
+.vcmp_fullpage_parallax:nth-child(1) {
+  z-index: 3;
+}
+
+.vcmp_fullpage_parallax:nth-child(2) {
+  z-index: 2;
+}
+
+.vcmp_fullpage_parallax:nth-child(3) {
+  z-index: 1;
+}
+
+.vcmp_fullpage_parallax .content-wrapper {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  color: #fff;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  -webkit-transform: translateY(40vh);
+          transform: translateY(40vh);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
+  transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
+}
+.vcmp_fullpage_parallax .content-title {
+  font-size: 12vh;
+  line-height: 1.4;
+}
+
+.vcmp_fullpage_parallax.up-scroll {
+  -webkit-transform: translate3d(0, -15vh, 0);
+          transform: translate3d(0, -15vh, 0);
+}
+.vcmp_fullpage_parallax.up-scroll .content-wrapper {
+  -webkit-transform: translateY(15vh);
+          transform: translateY(15vh);
+}
+.vcmp_fullpage_parallax.up-scroll + .vcmp_fullpage_parallax {
+  -webkit-transform: translate3d(0, 30vh, 0);
+          transform: translate3d(0, 30vh, 0);
+}
+.vcmp_fullpage_parallax.up-scroll + .vcmp_fullpage_parallax .content-wrapper {
+  -webkit-transform: translateY(30vh);
+          transform: translateY(30vh);
+}
+
+.vcmp_fullpage_parallax.down-scroll {
+  -webkit-transform: translate3d(0, -130vh, 0);
+          transform: translate3d(0, -130vh, 0);
+}
+.vcmp_fullpage_parallax.down-scroll .content-wrapper {
+  -webkit-transform: translateY(40vh);
+          transform: translateY(40vh);
+}
+.vcmp_fullpage_parallax.down-scroll + .vcmp_fullpage_parallax:not(.down-scroll) {
+  -webkit-transform: translate3d(0, -15vh, 0);
+          transform: translate3d(0, -15vh, 0);
+}
+.vcmp_fullpage_parallax.down-scroll + .vcmp_fullpage_parallax:not(.down-scroll) .content-wrapper {
+  -webkit-transform: translateY(15vh);
+          transform: translateY(15vh);
+}

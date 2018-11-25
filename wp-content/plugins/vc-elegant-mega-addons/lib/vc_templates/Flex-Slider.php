@@ -1,0 +1,1 @@
+[vc_row gap="35"][vc_column][vcmp_flex_slider flexslider_img="39,40,47" flexslider_effect="fade"][/vc_column][/vc_row]

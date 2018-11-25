@@ -1,0 +1,1 @@
+[vc_row][vc_column][vcmp_gummy_slider gummyslider_img="47,39,40,42,43,45,46,52,53,48" glideslider_img="52,47,42,45,46,39,40,38,48"][/vc_column][/vc_row]

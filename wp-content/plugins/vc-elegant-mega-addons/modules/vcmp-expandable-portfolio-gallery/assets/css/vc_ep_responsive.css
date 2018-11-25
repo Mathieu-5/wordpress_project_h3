@@ -1,0 +1,13 @@
+@media only screen and (max-width: 800px) {
+	[data-expandablePortfolioGallery-item] {
+		width: 50% !important;
+		height: 150px !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	[data-expandablePortfolioGallery-item] {
+		width: 100% !important;
+		height: 180px !important;
+	}
+}

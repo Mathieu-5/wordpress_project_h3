@@ -1,0 +1,90 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+
+.photoframes {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 60px 0;
+    width: 100%;
+	white-space: nowrap;
+}
+.vcmp_photoframe {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto 3%;
+  padding: 5px;
+  border: 10px solid #efefef !important;
+  background-color: #eaeaea;
+  position: relative;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3), 1px 1px 2px rgba(0, 0, 0, 0.2), 40px 35px 70px -10px rgba(0, 0, 0, 0.5), -20px -20px 100px -10px rgba(255, 255, 255, 0.8);
+  max-width: 100% !important;
+}
+.vcmp_photoframe:before {
+  content: " ";
+  left: 30px;
+  top: 30px;
+  bottom: 30px;
+  right: 30px;
+  position: absolute;
+  background: -webkit-linear-gradient(315deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0));
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+.vcmp_photoframe:hover:before {
+  opacity: 0;
+}
+.vcmp_photoframe img {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  max-width: 400px !important;
+  margin: 0 !important;
+}
+.vcmp_photoframe.red {
+  border: 10px solid #A52F2F !important;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3), 1px 1px 2px rgba(0, 0, 0, 0.2), 40px 35px 70px -10px rgba(0, 0, 0, 0.5), -10px -10px 100px -10px rgba(255, 255, 255, 0.3);
+}
+.vcmp_photoframe.black {
+  border: 10px solid #333  !important;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3), 1px 1px 2px rgba(0, 0, 0, 0.2), 40px 35px 70px -10px rgba(0, 0, 0, 0.5), -10px -10px 100px -10px rgba(255, 255, 255, 0.2);
+}
+.vcmp_photoframe.thick {
+  border-width: 30px !important;
+}
+.vcmp_photoframe figcaption {
+  position: absolute;
+  top: 100%;
+  margin-top: 20px;
+}
+.photoframes .thick figcaption {
+    margin-top: 20px;
+}
+.vcmp_photoframe figcaption h2, .vcmp_photoframe figcaption span {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  font-size: 100%;
+  font-weight: 900;
+}
+.vcmp_photoframe figcaption h2 {
+  margin: 0;
+}
+.vcmp_photoframe figcaption span {
+  color: #555;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+		font-size: 100%;
+		font-weight: 300;
+}
+.vcmp_photoframe:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.vcmp_photoframe:hover figcaption h2, .vcmp_photoframe:hover figcaption span {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}

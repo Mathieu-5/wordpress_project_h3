@@ -1,0 +1,5 @@
+/*--------------------------------------------------
+Counter
+--------------------------------------------------*/
+.vcmpcounter .pie { position: relative; z-index: 1; display: block; margin: 0 auto; height: 235px; text-align:center; }
+.vcmpcounter .count { position: absolute; top: 70px; left: 0; z-index: 1; margin: 0; width: 100%; font-size: 36px; line-height: 50px; text-align:center; }

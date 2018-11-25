@@ -1,0 +1,1 @@
+[vc_row][vc_column][vcmp_woocommerce woocommerce_effect="true" woocommerce_date="true" woocommerce_category="true" woocommerce_title="true" woocommerce_excerpt="true" woocommerce_time="true" woocommerce_limit="-1"][/vc_column][/vc_row]

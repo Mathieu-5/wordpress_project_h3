@@ -1,0 +1,1 @@
+[vc_row][vc_column][vcmp_owl_carousel owlcarousel_img="48,47,46,45,38,39,40,42,43,53,52,50,51,41,44,49"][/vc_column][/vc_row]

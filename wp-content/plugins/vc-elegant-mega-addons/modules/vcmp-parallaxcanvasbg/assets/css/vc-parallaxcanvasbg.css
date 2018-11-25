@@ -1,0 +1,80 @@
+#particles-js, #vcmp_parallax, .layer, .vcmp_parallax_content, .vcmp_parallax_subcontent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#particles-js{
+  opacity: 0.6;
+}
+
+#vcmp_parallax h1 {
+  color: white;
+  font-size: 5em;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: auto;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+#vcmp_parallax .vcmp_parallax_button {
+  color: white;
+  border: 1px solid white;
+  display: table;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  letter-spacing: 0.05em;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  text-decoration: none;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  padding: 10px 15px;
+}
+#vcmp_parallax .vcmp_parallax_button:hover {
+  background: white;
+  color: black;
+}
+#vcmp_parallax #particles-js canvas {
+  position:absolute;
+  top:0;
+  left:0;
+  
+}
+
+.vcmp_parallax_content {
+  -webkit-animation: rotate 18s 0.5s infinite linear reverse;
+          animation: rotate 18s 0.5s infinite linear reverse;
+}
+
+.vcmp_parallax_subcontent {
+  -webkit-animation: rotate 15s 0.1s infinite linear;
+          animation: rotate 15s 0.1s infinite linear;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+            transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+            transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+            transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+            transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}

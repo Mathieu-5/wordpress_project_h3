@@ -1,0 +1,23 @@
+/* -----------------------------------------------------------------------------
+
+  FLOATING NEWS
+  
+----------------------------------------------------------------------------- */
+.vcmpzoommain {
+	float: right;
+	position: relative;
+}
+.vcmpzoommain h1 {
+	font-size: 24px;
+    text-align: left !important;
+}
+.vcmpzoomme {
+	float: left;
+    min-height: 650px;
+    overflow: hidden;
+    width: 33%;
+}
+.vcmpzoomme img {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}

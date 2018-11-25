@@ -1,0 +1,1 @@
+[vc_row][vc_column][vcmp_gallerypinit gallerypinit_imgs="403,402,404,400,414,221,399,398,420,421"][/vc_column][/vc_row]

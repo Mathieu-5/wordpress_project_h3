@@ -1,0 +1,1 @@
+[vc_row][vc_column][vcmp_floatingnews floatingnews_types="post" floatingnews_limit="3" floatingnews_col_size="" floatingnews_effect="" el_class=""][/vc_column][/vc_row]

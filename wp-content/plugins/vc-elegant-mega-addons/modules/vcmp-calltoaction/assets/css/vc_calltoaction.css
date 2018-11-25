@@ -1,0 +1,9 @@
+/*--------------------------------------------------
+Call to action
+--------------------------------------------------*/
+.vcmp_cta { padding: 30px; margin: 20px 0; text-align:center;}
+.vcmp_cta h1 { font-size: 36px; line-height: 130%; margin-bottom: 25px; font-weight: 700; letter-spacing: 0.025em; margin-top: 0; text-align:center;}
+.vcmp_cta h1 + p { margin-top: -15px; margin-bottom: 25px; }
+.vcmp_cta p { font-size: 17px; line-height: 30px; }
+.vcmp_ctabtn {	background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: 2px solid #fff; border-radius: 0; color: #777; text-transform: uppercase; transition: all 0.3s ease-in-out 0s; cursor: pointer; display: inline-block; font-size: 14px; font-weight: 400; line-height: 1.42857; margin-bottom: 0; padding: 10px 20px; text-align: center; vertical-align: middle; white-space: nowrap; text-align:center; }
+.vcmp_ctabtn:hover { opacity:0.60; }

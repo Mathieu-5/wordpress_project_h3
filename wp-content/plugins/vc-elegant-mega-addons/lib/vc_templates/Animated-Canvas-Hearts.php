@@ -1,0 +1,4 @@
+[vc_row][vc_column][vcmp_canvasheart canvasheart_title="Awesome Animated Canvas Hearts!" canvasheart_title_font_size="36px" canvasheart_title_color="#000000"]
+<h2 style="text-align: center;"><span style="color: #99cc00;">Cras dictum pretium nisl sed viverra.</span></h2>
+<p style="text-align: center;">Nulla bibendum dolor vehicula massa egestas, vitae pretium nunc posuere. Aenean vitae luctus ipsum. Sed sed porta elit, sit amet ultrices lacus. Aliquam luctus convallis metus. <span style="color: #000000;">Cras lacus leo, dapibus sed dapibus nec, dapibus ut ex. Mauris commodo malesuada leo eget lacinia. Ut tristique eget purus non rhoncus. Praesent suscipit ipsum at auctor molestie.</span></p>
+[/vcmp_canvasheart][/vc_column][/vc_row]

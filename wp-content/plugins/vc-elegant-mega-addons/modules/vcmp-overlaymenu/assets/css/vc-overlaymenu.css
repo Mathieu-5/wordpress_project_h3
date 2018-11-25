@@ -1,0 +1,129 @@
+/*--------------------------------------------------
+OVERLAY MENU
+--------------------------------------------------*/
+/* OPEN / CLOSE BTNS */
+.vcmp-olmenu-btn {
+    display: inline;
+    font-size: 14px;
+    z-index: 999999;
+}
+.vcmp-olmenu-btn a {
+    display: inline-block;
+    text-decoration: none;
+}
+.vcmp-btn-open:after {
+    color: #333;
+    content: "\f394";
+    font-family: "Ionicons";
+	font-size: 15px;
+    -webkit-transition: all .2s linear 0s;
+    -moz-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    transition-property: all .2s linear 0s;
+}
+.vcmp-btn-open:hover:after {
+    color: #34B484;
+}
+.vcmp-btn-close:after {
+    color: #999;
+    content: "\f2d7";
+    font-family: "Ionicons";
+	font-size: 15px;
+    -webkit-transition: all .2s linear 0s;
+    -moz-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    transition-property: all .2s linear 0s;
+}
+.vcmp-btn-close:hover:after {
+    color: #34B484;
+}
+
+.vcmp_menu_outside {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999999;
+    display: inline;
+	background:#fff;
+	
+}
+.vcmp_menu_outside .vcmp-btn-open::after, .vcmp_menu_outside .vcmp-btn-close::after {
+    font-size: 24px;
+    padding: 10px;
+}
+/* OVERLAY */
+.vcmp-overlay {
+	color: #fff;
+    position: fixed;
+    display: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+.vcmp-overlay .vcmp-olmenu {
+    margin: 10% auto;
+    width: 80%;
+}
+.vcmp-overlay .vcmp-olmenu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.vcmp-overlay .vcmp-olmenu ul li {
+    float: left;
+    padding: 10px 0;
+    width: 25%;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.vcmp-overlay .vcmp-olmenu ul li a {
+    color: #34B484;
+    font-weight: bold;
+    font-size: 18px;
+}
+.vcmp-overlay .vcmp-olmenu ul ul {
+    margin-top: 10px;
+}
+.vcmp-overlay .vcmp-olmenu ul ul li {
+    position: relative;
+    float: none;
+    margin: 0;
+    width: 100%;
+    border: 0;
+}
+.vcmp-overlay .vcmp-olmenu ul ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
+}
+.vcmp-overlay .vcmp-olmenu ul ul li a:hover {
+    color: #34b484;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .vcmp-overlay .vcmp-olmenu ul li {
+        float: none;
+        margin-bottom: 50px;
+        width: 100%;
+        border-bottom: 1px solid #575757;
+    }
+    .vcmp-overlay .vcmp-olmenu ul li:last-child {
+        border: 0;
+    }
+    .vcmp-overlay .vcmp-olmenu ul ul {
+        margin-top: 20px;
+    }
+    .vcmp-olmenu-btn {
+        right: 25px;
+    }
+}

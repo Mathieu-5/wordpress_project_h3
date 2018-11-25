@@ -1,0 +1,15 @@
+.owl-carousel .item{
+  margin: 3px;
+}
+.owl-carousel .owl-item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin:0;
+}
+.owl-theme .owl-controls {
+    margin-top: 10px !important;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: #222222 !important;
+}

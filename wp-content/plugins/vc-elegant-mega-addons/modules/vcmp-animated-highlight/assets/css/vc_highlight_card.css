@@ -1,0 +1,59 @@
+.highlightcard {
+  width: 100%;
+  padding: 30px;
+  background: #222222; 
+  margin: 15px auto;
+  transition: .3s ease;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.highlightcard:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8) !important;
+  transform: translateY(-10px) scale(1.02) !important;
+}
+.highlightcard:hover .highlightcard-title {
+  background-position: -100% 0 !important;
+  color: white;
+}
+
+.highlightcard:hover .highlightcard-title a {
+  color: white;
+}
+
+.highlightcard-title {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #16a085 50%);
+  background-size: 200%;
+  background-position: 0 0;
+  display: inline;
+  transition: .5s ease-in-out;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+  text-transform: uppercase;
+}
+.highlightcard-title a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.highlightcard small {
+  margin-top: 20px;
+  display: block;
+  color: white;
+  text-transform: uppercase;
+}
+.highlightcard small a {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.highlightcard span {
+  display: block;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #16a085;
+}
+.highlightcard span a {
+  color: white;
+}

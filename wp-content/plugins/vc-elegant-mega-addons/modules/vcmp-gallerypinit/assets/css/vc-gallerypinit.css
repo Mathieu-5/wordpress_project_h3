@@ -1,0 +1,73 @@
+/* -----------------------------------------------------------------------------
+
+  GALLERY WITH PIN IT BUTTON
+  
+----------------------------------------------------------------------------- */
+.vcmp_pinitgallery {
+	float: left;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+}
+
+.vcmp_imgPinWrap .vcmp_pin {
+	border: none;
+	opacity: 0;
+	left: 10px;
+	position: absolute;
+	display: block;
+	-webkit-transition:all .25s ease-in-out;
+	-moz-transition:all .25s ease-in-out;
+	-o-transition:all .25s ease-in-out;
+	transition:all .25s ease-in-out;
+}
+.vcmp_imgPinWrap .vcmp_pin img {
+	display: block;
+	margin: 0 !important;
+}
+.vcmp_imgPinWrap img {
+	-webkit-transition:all .25s ease-in-out;
+	-moz-transition:all .25s ease-in-out;
+	-o-transition:all .25s ease-in-out;
+	transition:all .25s ease-in-out;
+	border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+.vcmp_imgPinWrap img:hover {
+	opacity: 0.60;
+}
+.vcmp_imgPinWrap:hover .vcmp_pin {
+  opacity: 1;
+}
+.vcmp_imgPinWrap .vcmp_left { left: 15px; }
+.vcmp_imgPinWrap .vcmp_right { right: 15px; }
+.vcmp_imgPinWrap .vcmp_bottom { bottom: 15px; }
+.vcmp_imgPinWrap .vcmp_top { top: 15px; }
+.vcmp_imgPinWrap .vcmp_center {
+	left: 50%;
+	top:50%;
+}
+
+/* ====================================================================================================================
+ * RESPONSIVE
+ * ====================================================================================================================*/
+ @media (max-width: 1400px) {
+	.vcmp_pinitgallery {
+		float: left;
+		min-height: 300px;
+		overflow: hidden;
+		position: relative;
+		width: 50%;
+	}
+}
+@media (max-width: 960px) {
+	.vcmp_pinitgallery {
+		float: none;
+		height: auto;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+	}
+}

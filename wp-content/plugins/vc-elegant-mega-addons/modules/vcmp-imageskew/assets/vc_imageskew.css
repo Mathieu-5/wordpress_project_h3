@@ -1,0 +1,39 @@
+/* -----------------------------------------------------------------------------
+
+  IMAGE SKEW
+  
+----------------------------------------------------------------------------- */
+.vcmp_links {
+  width: 100%;
+  overflow: hidden;
+}
+.vcmp_links_content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -8%;
+}
+.vcmp_links_item {
+  width: 33.333%;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.vcmp_links_item:not(:last-of-type) {
+  border-right: 4px solid transparent;
+}
+.vcmp_links_item:hover {
+  opacity: 0.5;
+}
+.vcmp_links_img {
+  display: block;
+  width: 138% !important;
+  margin-left: 50%;
+  margin-bottom: 0 !important;
+  max-width: inherit !important;
+  -webkit-transform: skew(20deg) translate(-50%);
+          transform: skew(20deg) translate(-50%);
+}

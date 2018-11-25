@@ -420,8 +420,8 @@ input:-webkit-autofill {
 }
 
 .home-diag{
-    fill: #e9f8f3 !important;
-    stroke: #e9f8f3 !important;
+    /*fill: #e9f8f3 !important;
+    stroke: #e9f8f3 !important;*/
 }
 
 .diagonal.home-left, .diagonal.home-right {

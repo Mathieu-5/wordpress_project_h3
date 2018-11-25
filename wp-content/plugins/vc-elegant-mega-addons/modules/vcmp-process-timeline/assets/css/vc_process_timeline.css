@@ -1,0 +1,47 @@
+.vcmp_process_timeline {
+	width: 800px;
+	margin: 3em auto;
+	cursor: default;
+}
+
+.vcmp_process_timeline-items {
+	display: table;
+	margin: 0 0 10px;
+	padding: 0;
+	list-style-type: none;
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+}
+.vcmp_process_timeline-items li {
+	display: inline-block;
+	width: 25%;
+	vertical-align: bottom;
+	padding: 0 .5em;
+	-webkit-transform: scale(0.65) translateY(40px);
+		  transform: scale(0.65) translateY(40px);
+	-webkit-transform-origin: bottom center;
+		  transform-origin: bottom center;
+	-webkit-transition: -webkit-transform .5s;
+	transition: -webkit-transform .5s;
+	transition: transform .5s;
+	transition: transform .5s, -webkit-transform .5s;
+}
+.vcmp_process_timeline-items li.active {
+	-webkit-transform: scale(1) translateY(0);
+		  transform: scale(1) translateY(0);
+}
+.vcmp_process_timeline-items em {
+	color: #999;
+	display: block;
+	font-size: 80%;
+	font-style: normal;
+	margin-top: 0.5em;
+}
+.vcmp_process_timeline_link > img {
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    max-height: 50%;
+    max-width: 50%;
+}

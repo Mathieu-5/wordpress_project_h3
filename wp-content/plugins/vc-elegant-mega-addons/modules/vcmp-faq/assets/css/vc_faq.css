@@ -1,0 +1,106 @@
+/* -----------------------------------------------------------------------------
+
+  ELEGANT EMAGA ADDONS FAQ
+  
+----------------------------------------------------------------------------- */
+.vcmp-live-search-box {
+  width: 100%;
+  height: 45px !important;
+  display: block;
+  font-size: 16px;
+  padding: 0 20px !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #3498db;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.vcmp_topic {
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: solid 1px #ebebeb;
+}
+
+.vcmp_open {
+  cursor: pointer;
+  display: block;
+  padding: 0px;
+}
+
+.vcmp_open:hover {
+  opacity: 0.7;
+}
+
+.vcmp_expanded {
+  background-color: #f8f8f8;
+  transition: all .3s ease-in-out;
+}
+
+.vcmp_ptag {
+  display: none;
+}
+
+.vcmp_question {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0;
+}
+
+.vcmp_answer {
+  font-size: 16px;
+  line-height: 26px;
+  display: none;
+  margin-bottom: 30px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.vcmp_faq-t {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -35px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border-left: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  transition: all .3s ease-in-out;
+}
+
+.vcmp_faq-o {
+  top: -30px;
+  -moz-transform: rotate(-224deg);
+  -ms-transform: rotate(-224deg);
+  -webkit-transform: rotate(-224deg);
+  transform: rotate(-224deg);
+}
+
+@media only screen and (max-width: 480px) {
+  .vcmp_faq-t {
+    display: none;
+  }
+  .vcmp_question {
+    padding-right: 0px;
+  }
+  main {
+    padding: 10px;
+  }
+  .vcmp_answer {
+    margin-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

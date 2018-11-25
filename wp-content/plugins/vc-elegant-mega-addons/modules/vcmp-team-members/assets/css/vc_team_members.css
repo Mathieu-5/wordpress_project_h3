@@ -1,0 +1,151 @@
+.vcmp-member-wrapper {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  -ms-transform: perspective(1000px);
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d; 
+  -ms-transform-style: preserve-3d;
+  margin-bottom: 30px;
+}
+.vcmp-member-wrapper .vcmp-member {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.vcmp-member-wrapper:hover .vcmp-info {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.vcmp-member-wrapper:hover .vcmp-photo {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.vcmp-member {
+	transition: 0.3s;
+	transform-style: preserve-3d;
+	position: relative;
+  padding-bottom: 130%;
+}
+.vcmp-photo, .vcmp-info {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -moz-transform: rotateY(0deg);
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+  -o-transform: rotateY(0deg);
+  -ms-transition: 0.6s;
+  -ms-transform-style: preserve-3d;
+  -ms-transform: rotateY(0deg);
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.vcmp-photo {
+  background-size: cover;
+  background-position: 50% 50%;
+	z-index: 2;
+	transform: rotateY(0deg);
+  backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 6px;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  z-index: 2;
+}
+.vcmp-info {
+	transform: rotateY(180deg);
+  backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #dadada;
+  border-radius: 6px;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+.vcmp-info h3 {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #EDEDED;
+  margin: 0;
+  color: #222;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.vcmp-info .vcmp-social {
+  padding: 30px 0 20px;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+.vcmp-info .vcmp-social {
+  position: relative;
+}
+.vcmp-info .vcmp-social::before {
+	content: '\f0d7';
+	font-family: 'FontAwesome';
+	font-size: 72px;
+	color: #EDEDED;
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	margin-left: -21px;
+}
+.vcmp-info .vcmp-social a {
+	color: #666666;
+}
+.vcmp-info .vcmp-social a i {
+	background-color: #efefef;
+    border-radius: 4px;
+    line-height: 36px;
+    margin: 0 1px;
+    opacity: 0.4;
+    width: 36px;
+	transition: 0.3s;
+}
+.vcmp-info .vcmp-social a i:hover {
+	opacity: 1;
+	color: #ffffff;
+}
+.vcmp-info .vcmp-social a i.fa-twitter:hover { background-color: #1DA1F2; }
+.vcmp-info .vcmp-social a i.fa-facebook:hover { background-color: #3b5998; }
+.vcmp-info .vcmp-social a i.fa-linkedin:hover { background-color: #007bb6; }
+.vcmp-info .vcmp-social a i.fa-google-plus:hover { background-color: #dd4b39; }
+.vcmp-info .vcmp-social a i.fa-envelope:hover { background-color: #00a99e; }
+.vcmp-info .vcmp-bio { padding: 20px;}
+.vcmp-info .vcmp-bio h4 { margin-top: 0; }

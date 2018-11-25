@@ -1,0 +1,15 @@
+/* -----------------------------------------------------------------------------
+
+  FLEX SLIDER
+  
+----------------------------------------------------------------------------- */
+.slides, .slides > li, .flex-control-nav, .flex-direction-nav { list-style: outside none none !important; }
+.gallery .flexslider { margin: 0 0 60px; padding: 0; border: none; box-shadow: none; background: none; }
+.gallery .flexslider .slides li { position: relative; z-index: 1; margin: 0;}
+.gallery .flexslider .slides li .text { position: absolute; bottom: 0; left: 0; padding: 0 15px; z-index: 2; }
+.gallery .flex-direction-nav { top: 50%; width: 100%; position: absolute; z-index: 9999; margin-top: 0; }
+.gallery .flex-direction-nav a:before { font-family: FontAwesome; content: '\f104'; color: #777; font-size: 60px; line-height: 35px; box-shadow: none !important;}
+.gallery .flex-direction-nav .flex-next:before { content: '\f105'; }
+.gallery .flex-control-nav { bottom: -40px; }
+.gallery .flex-control-paging li a { background: #777; border: 2px solid #777; box-shadow: none; width: 10px; height: 10px; }
+.gallery .flex-control-paging li a.flex-active { -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); -webkit-transform: scale(1.2); transform: scale(1.2); background: none; }

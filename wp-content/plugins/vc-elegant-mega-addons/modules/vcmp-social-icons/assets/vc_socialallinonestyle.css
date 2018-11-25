@@ -1,0 +1,29 @@
+/* -----------------------------------------------------------------------------
+
+  SOCIAL ICONS
+  
+----------------------------------------------------------------------------- */
+.vcmp-socials { margin: 0 0 25px !important; }
+.vcmp-socials a { box-shadow: none !important; border:0;}
+.social-icons li { padding: 5px; list-style-type: none; }
+.horizontal-social li {	display: inline; margin: 0 0 0 2px !important; }
+.vcmp-socials li { list-style-type: none; }
+.vcmp-socials a { position: relative; display: inline-block; min-width: 24px; min-height: 24px; margin: 2px; background: 0 0; }
+.vcmp-socials i { position: absolute; top: 50%; left: 50%; font-size: inherit; transform: translate( -50%, -50% ); }
+.circle-outline-soc a, .circle-soc a { border-radius: 50% }
+.circle-outline-soc a:hover, .circle-soc a:hover { border-radius: 50% }
+.circle-soc a, .boxed-soc a { background: #000; }
+.circle-outline-soc a, .boxed-outline-soc a { border: 1px solid #333; }
+
+.circle-soc a.hvr-shutter-in-horizontal:before,
+.circle-soc a.hvr-shutter-out-horizontal:before,
+.circle-soc a.hvr-shutter-in-vertical:before,
+.circle-soc a.hvr-bounce-to-top:before,
+.circle-soc a.hvr-trim:before,
+.circle-soc a.hvr-shutter-out-vertical:before,
+.circle-soc a.hvr-ripple-out:before,
+.circle-soc a.hvr-ripple-in:before,
+.circle-soc a.hvr-outline-out:before,
+.circle-soc a.hvr-outline-in:before,
+.circle-soc a.hvr-shadow-radial:before
+ { border-radius: 50% }

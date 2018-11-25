@@ -1,0 +1,25 @@
+/* -----------------------------------------------------------------------------
+
+  ANIMATED CANVAS
+  
+----------------------------------------------------------------------------- */
+#canvas{
+	width:100%;
+	height:700px;
+	overflow: hidden;
+	position:relative;
+	background-color: #1a1724;               
+}
+.vcmpccanvas_wrap{
+	position:relative;
+	
+}
+.vcmpccanvas_content{
+	color: #fff;
+    left: 10%;
+    padding: 60px;
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    z-index: 99;
+}

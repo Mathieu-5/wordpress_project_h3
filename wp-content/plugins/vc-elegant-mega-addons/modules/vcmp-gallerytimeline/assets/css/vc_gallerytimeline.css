@@ -1,0 +1,17 @@
+/*--------------------------------------------------
+Gallery with Timeline
+--------------------------------------------------*/
+.vcmp-gallery-timeline .flexslider { margin: 0 0 60px; padding: 0; border: none; box-shadow: none; background: none; }
+.vcmp-gallery-timeline .flexslider .slides li { position: relative; z-index: 1; }
+.vcmp-gallery-timeline .flexslider .slides li .text { position: absolute; bottom: 0; left: 0; padding: 0 15px; z-index: 2; }
+.vcmp-gallery-timeline .label-text { display: none; }
+.vcmp-gallery-timeline .flex-control-nav { bottom: -40px; margin: 0; padding: 0;}
+.vcmp-gallery-timeline .flex-control-paging li { width: 15%; margin: 0; padding: 0; vertical-align: text-top; }
+.vcmp-gallery-timeline .flex-control-paging li a { text-indent: 0; width: auto; height: auto; text-align: center; background: none !important; border: none; box-shadow: none; position: relative; z-index: 1; color: #777; margin: 0; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+.vcmp-gallery-timeline .flex-control-paging li span.label-text { padding: 0 10px; display: block; }
+.vcmp-gallery-timeline .flex-control-paging li span.vcmp_year_dot { display: block; width: 14px; height: 14px; border: 2px solid #ccc; border-radius: 12px; margin: 0 auto 5px; background: #777; position: relative; z-index: 2; }
+.vcmp-gallery-timeline .flex-control-paging li a.flex-active span.vcmp_year_dot { background: #ddd; border: 2px solid #777; }
+.vcmp-gallery-timeline .flex-control-paging li a:before { content: ' '; width: 100%; position: absolute; top: 6px; height: 2px; left: 0; background: #777; z-index: 1; }
+.vcmp-gallery-timeline .flex-control-paging li:first-child a:before { left: 50%; width: 50%; }
+.vcmp-gallery-timeline .flex-control-paging li:last-child a:before { width: 50%; }
+.vcmp-gallery-timeline .flexslider .slides { margin: 0; padding: 0; }

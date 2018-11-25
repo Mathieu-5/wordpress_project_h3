@@ -1,22 +1,22 @@
 <?php
-add_action( 'init', 'ajout_custom_type_petition' );
-function ajout_custom_type_petition()
+add_action( 'init', 'ajout_custom_type_projet' );
+function ajout_custom_type_projet()
 {
-$post_type = "petition";
+$post_type = "projet";
 $labels = array(
-        'name'               => 'Pétitions',
-        'singular_name'      => 'Pétition',
-        'all_items'          => 'Toutes les pétitions',
-        'add_new'            => 'Ajouter une pétition',
-        'add_new_item'       => 'Ajouter une pétition',
-        'edit_item'          => "Editer la pétition",
-        'new_item'           => 'Nouvelle pétition',
-        'view_item'          => "Voir la pétition",
-        'search_items'       => 'Chercher une pétition',
+        'name'               => 'Projets KS',
+        'singular_name'      => 'Projet',
+        'all_items'          => 'Toutes les projets',
+        'add_new'            => 'Ajouter une projet',
+        'add_new_item'       => 'Ajouter une projet',
+        'edit_item'          => "Editer la projet",
+        'new_item'           => 'Nouvelle projet',
+        'view_item'          => "Voir la projet",
+        'search_items'       => 'Chercher une projet',
         'not_found'          => 'Pas de résultat',
         'not_found_in_trash' => 'Pas de résultat',
         'parent_item_colon'  => 'Petition Parent',
-        'menu_name'          => 'Pétitions',
+        'menu_name'          => 'Projets KS',
     );
     $args = array(
         'labels'              => $labels,
@@ -37,7 +37,7 @@ $labels = array(
     );
   register_post_type($post_type, $args );
   $taxonomy = "theme";
-  $object_type = array("petition");
+  $object_type = array("projet");
   $args = array(
           'label' => __( 'Thématique' ),
           'rewrite' => array( 'slug' => 'theme' ),

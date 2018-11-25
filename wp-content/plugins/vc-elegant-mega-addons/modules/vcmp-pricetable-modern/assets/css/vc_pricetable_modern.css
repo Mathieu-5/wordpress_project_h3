@@ -1,0 +1,215 @@
+.vcmp_pricetable_modern{
+    margin:10px 0;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.vcmp_pricetable_modern_titlle{
+    background: #34B484;
+    color: #FFF;
+    padding: 2em 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    position: relative;
+    text-transform: uppercase;
+    
+    
+}
+.vcmp_pricetable_modern_titlle:after {
+	top:100%;
+	left:50%;
+	border:solid transparent;
+	content:" ";
+	height:0;
+	width:0;
+	position:absolute;
+	pointer-events:none;
+	border-top-color:#34B484;
+	border-width:15px;
+	margin-left:-15px;
+}
+.vcmp_pricetable_modern_price{
+    background: #f9f9f9;
+    padding: 1.5em 0;
+    text-align:center;
+    
+}
+.vcmp_pricetable_modern_price .num{
+    font-size: 70px;
+    font-weight: bold;
+}
+.vcmp_pricetable_modern_price sup {
+	bottom:30px;
+    line-height:5px;
+	vertical-align:baseline;
+	_vertical-align:bottom;
+	position:relative;
+}
+.vcmp_pricetable_modern_price sub {
+	top:10px;
+    line-height:5px;
+	vertical-align:baseline;
+	_vertical-align:bottom;
+	position:relative;
+}
+.vcmp_pricetable_modern_vcmp_ptm_row{
+    padding: 1.5em .5em;
+    background: #34B484;
+    color:#fff;
+    text-align:center;
+     -webkit-transition: all .25s linear 0s;
+    -moz-transition: all .25s linear 0s;
+    -o-transition: all .25s linear 0s;
+    transition-property: all .25s linear 0s;
+}
+.vcmp_pricetable_modern_vcmp_ptm_row:hover{
+    text-align: inherit;
+    padding: 1.5em 4em;
+    background: #f9f9f9;
+    color:#333;
+}
+.vcmp_pricetable_modern_vcmp_ptm_row i{
+    margin-right: 5px;
+}
+.vcmp_pricetable_modern_button_wrapper{
+    padding: 1em 0;
+    text-align: center;
+}
+.vcmp_pricetable_modern_button {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    margin: 5px 0;
+    padding: 1em 1.5em 1em;
+    border: 0;
+    box-shadow: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1;
+    -webkit-transition: all .1s ease-in 0s;
+    -moz-transition: all .1s ease-in 0s;
+    -o-transition: all .1s ease-in 0s;
+    transition-property: all .1s ease-in 0s;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    background: #34B484;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+.vcmp_ptm_row {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    *zoom: 1;
+}
+
+.vcmp_ptm_row:before,
+.vcmp_ptm_row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.vcmp_ptm_row:after {
+    clear: both;
+}
+
+.vcmp_pricetable_modern_wrapper {
+    margin: 0 20px 0 20px;
+    width: 320px;
+    float: left;
+    min-height: 1px;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+960px
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  .vcmp_ptm_row {
+        margin-right: auto;
+        margin-left: auto;
+        width: 960px;
+        *zoom: 1;
+    }
+    .vcmp_ptm_row:before,
+    .vcmp_ptm_row:after {
+        display: table;
+        content: "";
+        line-height: 0;
+    }
+    .vcmp_ptm_row:after {
+        clear: both;
+    }
+    .vcmp_pricetable_modern_wrapper {
+        margin: 0 16px 0 16px;
+        width: 288px;
+        float: left;
+        min-height: 1px;
+    }
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+TABLETS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .vcmp_ptm_row {
+        margin-right: auto;
+        margin-left: auto;
+        width: 768px;
+        *zoom: 1;
+    }
+    .vcmp_ptm_row:before,
+    .vcmp_ptm_row:after {
+        display: table;
+        content: "";
+        line-height: 0;
+    }
+    .vcmp_ptm_row:after {
+        clear: both;
+    }
+  .vcmp_pricetable_modern_wrapper {
+        margin: 0 14px 0 14px;
+        width: 228px;
+        float: left;
+        min-height: 1px;
+    }
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+MOBILE 100%
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 767px) {
+  .vcmp_ptm_row {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 100%;
+        *zoom: 1;
+    }
+    .vcmp_pricetable_modern_wrapper{
+      display: block;
+        float: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+RETINA
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {}

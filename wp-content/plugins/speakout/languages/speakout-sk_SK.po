@@ -1,0 +1,1167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeakOut! Email Petitions\n"
+"POT-Creation-Date: 2018-08-28 10:12+1000\n"
+"PO-Revision-Date: 2018-08-28 10:13+1000\n"
+"Last-Translator: 123host <info@123host.com.au>\n"
+"Language-Team: \n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: speakout-email-petitions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/addnew.php:28 includes/addnew.php:54
+msgid "Edit Email Petition"
+msgstr "Zmeniť Email petíciu"
+
+#: includes/addnew.php:32 includes/addnew.php:58 includes/addnew.php:77
+msgid "Update Petition"
+msgstr "Upraviť petíciu"
+
+#: includes/addnew.php:40
+#, php-format
+msgid ""
+"Petition created. Use %1$s %2$s %3$s to display in a page or post. Use %1$s "
+"%4$s %3$s to display the signatures list or %1$s %5$s %3$s to show just the "
+"signature count."
+msgstr ""
+"Petícia bola vytvorená. Použite %1$s %2$s %3$s na zobrazenie na stránke "
+"alebo v článku. Použite %1$s %4$s %3$s na zobrazenie zoznamu podpisov alebo  "
+"%1$s %5$s %3$s na zobrazenie počtu podpisov.\""
+
+#: includes/addnew.php:73
+msgid "Edit New Email Petition"
+msgstr "Zmeniť novú petíciu"
+
+#: includes/addnew.php:78
+msgid "Petition "
+msgstr "Petícia "
+
+#: includes/addnew.php:85
+msgid "Add New Email Petition"
+msgstr "Pridať novú petíciu"
+
+#: includes/addnew.php:89
+msgid "Create Petition"
+msgstr "Vytvoriť petíciu"
+
+#: includes/addnew.php:91
+msgid "Add me to your mailing list"
+msgstr "Pridajte ma do vášho mailing listu"
+
+#: includes/addnew.view.php:50
+msgid "Error: Please correct the highlighted fields."
+msgstr "Chyba: Prosím, opravte vyznačené polia."
+
+#: includes/addnew.view.php:65
+msgid "Enter title here"
+msgstr "Zadajte názov"
+
+#: includes/addnew.view.php:72 includes/emailpetition.php:338
+#: includes/help.php:33 includes/signatures.php:69 includes/signatures.php:107
+#: includes/signatures.view.php:46 includes/signatures.view.php:59
+#: includes/widget.php:91
+msgid "Petition"
+msgstr "Ptícia"
+
+#: includes/addnew.view.php:76 includes/help.php:7
+msgid "Do not send email (only collect signatures)"
+msgstr "Neposielať e-mail (iba zbierať podpisy)"
+
+#: includes/addnew.view.php:80 includes/help.php:8
+msgid "Target Email"
+msgstr "Cieľová e-mailová adresa"
+
+#: includes/addnew.view.php:80 includes/addnew.view.php:83
+msgid "you may enter multiple addresses separated by commas"
+msgstr "môžete zadať viacero e-mail adries oddelených čiarkou"
+
+#: includes/addnew.view.php:83
+msgid "CC Email"
+msgstr "CC e-mail"
+
+#: includes/addnew.view.php:86 includes/help.php:9 includes/help.php:70
+#: includes/settings.view.php:219
+msgid "Email Subject"
+msgstr "Predmet e-mailu"
+
+#: includes/addnew.view.php:89 includes/help.php:10
+msgid "Greeting"
+msgstr "Pozdrav/Oslovenie"
+
+#: includes/addnew.view.php:94 includes/help.php:11
+msgid "Petition Message"
+msgstr "Správa petície"
+
+#: includes/addnew.view.php:97
+msgid "Petition Footer (below signature)"
+msgstr "Pätička petície (pod podpisom)"
+
+#: includes/addnew.view.php:105 includes/help.php:14 includes/help.php:38
+msgid "Twitter Message"
+msgstr "Správa na Twitter"
+
+#: includes/addnew.view.php:120 includes/help.php:43
+msgid "Petition Options"
+msgstr "Možnosti petície"
+
+#: includes/addnew.view.php:129 includes/help.php:17
+msgid "Confirm signatures"
+msgstr "Potvrdiť podpis"
+
+#: includes/addnew.view.php:132
+msgid "Return URL"
+msgstr "Potvrdzovacia URL"
+
+#: includes/addnew.view.php:141
+msgid "Allow message to be edited"
+msgstr "Povoliť, aby správa mohla byť editovaná"
+
+#: includes/addnew.view.php:149 includes/help.php:19
+msgid "Set signature goal"
+msgstr "Zadajte cieľový počet podpisov"
+
+#: includes/addnew.view.php:152 includes/petitions.view.php:21
+#: includes/petitions.view.php:31
+msgid "Goal"
+msgstr "Cieľový počet"
+
+#: includes/addnew.view.php:161 includes/help.php:20
+msgid "Set expiration date"
+msgstr "Zadajte dátum ukončenie petície"
+
+#: includes/addnew.view.php:165
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/addnew.view.php:166
+msgid "Feb"
+msgstr "Feb"
+
+#: includes/addnew.view.php:167
+msgid "Mar"
+msgstr "Mar"
+
+#: includes/addnew.view.php:168
+msgid "Apr"
+msgstr "Apr"
+
+#: includes/addnew.view.php:169
+msgid "May"
+msgstr "Máj"
+
+#: includes/addnew.view.php:170
+msgid "Jun"
+msgstr "Jún"
+
+#: includes/addnew.view.php:171
+msgid "Jul"
+msgstr "Júl"
+
+#: includes/addnew.view.php:172
+msgid "Aug"
+msgstr "Aug"
+
+#: includes/addnew.view.php:173
+msgid "Sep"
+msgstr "Sep"
+
+#: includes/addnew.view.php:174
+msgid "Oct"
+msgstr "Okt"
+
+#: includes/addnew.view.php:175
+msgid "Nov"
+msgstr "Nov"
+
+#: includes/addnew.view.php:176
+msgid "Dec"
+msgstr "Dec"
+
+#: includes/addnew.view.php:198 includes/help.php:48
+msgid "Display Options"
+msgstr "Zobraziť možnosti"
+
+#: includes/addnew.view.php:207 includes/help.php:23
+msgid "Display address fields"
+msgstr "Zobraziť riadky adresy"
+
+#: includes/addnew.view.php:211 includes/emailpetition.php:162
+#: includes/widget.php:277
+msgid "Street"
+msgstr "Ulica a číslo domu"
+
+#: includes/addnew.view.php:214 includes/csv.php:48
+#: includes/emailpetition.php:170 includes/settings.view.php:179
+#: includes/widget.php:284
+msgid "City"
+msgstr "Mesto"
+
+#: includes/addnew.view.php:217 includes/emailpetition.php:177
+#: includes/settings.view.php:182 includes/widget.php:291
+msgid "State / Province"
+msgstr "Kraj"
+
+#: includes/addnew.view.php:220 includes/csv.php:50
+#: includes/emailpetition.php:185 includes/settings.view.php:185
+msgid "Postal Code"
+msgstr "PSČ"
+
+#: includes/addnew.view.php:223 includes/csv.php:51
+#: includes/emailpetition.php:193 includes/settings.view.php:188
+#: includes/widget.php:308
+msgid "Country"
+msgstr "Štát"
+
+#: includes/addnew.view.php:231 includes/help.php:24
+msgid "Display custom field"
+msgstr "Zobraziť vlastné pole"
+
+#: includes/addnew.view.php:232
+msgid "This field is included in email to target"
+msgstr "Toto pole je zahrnuté v e-maile na cieľové"
+
+#: includes/addnew.view.php:234 includes/addnew.view.php:266
+msgid "Label"
+msgstr "Názov"
+
+#: includes/addnew.view.php:237
+msgid "Top"
+msgstr "Hore"
+
+#: includes/addnew.view.php:239
+msgid "Above email"
+msgstr "Vyššie uvedený e-mail"
+
+#: includes/addnew.view.php:242
+msgid "Bottom"
+msgstr "Dole"
+
+#: includes/addnew.view.php:250
+msgid "Display custom message"
+msgstr "Zobraziť vlastnú správu"
+
+#: includes/addnew.view.php:251
+msgid "Displayed beneath `Thank you` after petition is signed"
+msgstr "Zobrazené pod ' ďakujem ' po petícii je podpísaný"
+
+#: includes/addnew.view.php:253
+msgid "Message"
+msgstr "Správa"
+
+#: includes/addnew.view.php:263 includes/help.php:25
+msgid "Display opt-in checkbox"
+msgstr "Zobraziť políčko newsletter"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin.php:9
+msgid "SpeakOut! Email Petitions"
+msgstr "SpeakOut! Email petície"
+
+#: includes/admin.php:10
+msgid "SpeakOut!"
+msgstr "SpeakOut!"
+
+#: includes/admin.php:19
+msgid "Petitions"
+msgstr "Petície"
+
+#: includes/admin.php:23 includes/admin.php:24 includes/petitions.view.php:4
+msgid "Add New"
+msgstr "Pridať novú petíciu"
+
+#: includes/admin.php:34 includes/admin.php:35 includes/petitions.view.php:20
+#: includes/petitions.view.php:30 includes/signatures.view.php:4
+msgid "Signatures"
+msgstr "Podpisy"
+
+#: includes/admin.php:39
+msgid "signatures"
+msgstr "podpisy"
+
+#: includes/admin.php:46 includes/settings.view.php:57
+msgid "SpeakOut! Petitions Settings"
+msgstr "SpeakOut! Petitions - nastavenia"
+
+#: includes/admin.php:47
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: includes/admin.php:57 includes/admin.php:58
+msgid "Import from SpeakUp"
+msgstr "Importovať zo SpeakUp"
+
+#: includes/class.petition.php:194
+msgid "No Title"
+msgstr "Žiadny názov"
+
+#: includes/class.speakout.php:117
+msgid "items"
+msgstr "kusov"
+
+#: includes/class.speakout.php:131 includes/class.speakout.php:134
+msgid "of"
+msgstr "z"
+
+#: includes/confirmations.php:52
+msgid "Thank you. Your signature has been added to the petition."
+msgstr "Ďakujeme. Váš podpis bol pridaný k petícii."
+
+#: includes/confirmations.php:57
+msgid "Your signature has already been confirmed."
+msgstr "Váš podpis bol potvrdený."
+
+#: includes/confirmations.php:61
+msgid "The confirmation code you provided is invalid."
+msgstr "Overovací kód, ktorý ste zadali nie je správny."
+
+#: includes/confirmations.php:101
+msgid "Email Confirmation"
+msgstr "Potvrdenie e-mailom"
+
+#: includes/confirmations.php:105
+msgid "You will be redirected momentarily."
+msgstr "Teraz budete presmerovaný."
+
+#: includes/confirmations.php:109
+msgid "Click here"
+msgstr "Kliknite sem"
+
+#: includes/confirmations.php:109
+msgid "to return to site "
+msgstr "na návrat na lokalitu "
+
+#: includes/csv.php:10 includes/signatures.php:5
+msgid "Insufficient privileges: You need to be an editor to do that."
+msgstr "Nemáte oprávnenia: Musíte byť editor, aby ste mohli vykonať operáciu."
+
+#: includes/csv.php:23 includes/signatures.view.php:68
+msgid "No signatures found."
+msgstr "Neboli nájdené žiadne podpisy."
+
+#: includes/csv.php:44 includes/emailpetition.php:130 includes/widget.php:256
+msgid "First Name"
+msgstr "Meno"
+
+#: includes/csv.php:45 includes/emailpetition.php:135 includes/widget.php:260
+msgid "Last Name"
+msgstr "Priezvisko"
+
+#: includes/csv.php:46
+msgid "Email Address"
+msgstr "E-mail"
+
+#: includes/csv.php:47
+msgid "Street Address"
+msgstr "Ulica a číslo domu"
+
+#: includes/csv.php:49
+msgid "State"
+msgstr "Štát"
+
+#: includes/csv.php:52
+msgid "Date Signed"
+msgstr "Dátum podpisu"
+
+#: includes/csv.php:53 includes/signatures.view.php:47
+#: includes/signatures.view.php:60
+msgid "Confirmed"
+msgstr "Overené"
+
+#: includes/csv.php:54
+msgid "Petition Title"
+msgstr "Názov petície"
+
+#: includes/csv.php:55
+msgid "Petition ID"
+msgstr "ID petície"
+
+#: includes/csv.php:56
+msgid "Email Opt-in"
+msgstr "E-mail pre newsletter"
+
+#: includes/csv.php:57 includes/settings.view.php:194
+msgid "Custom Message"
+msgstr "Vlastná správa"
+
+#: includes/csv.php:58
+msgid "Language"
+msgstr "Jazyk"
+
+#: includes/csv.php:59
+msgid "IP Address"
+msgstr "IP adresa"
+
+#: includes/csv.php:69 includes/settings.view.php:191
+msgid "Custom Field"
+msgstr "Vlastné pole"
+
+#: includes/csv.php:85 includes/signatures.view.php:78
+msgid "confirmed"
+msgstr "potvrdené"
+
+#: includes/csv.php:88 includes/signatures.view.php:80
+msgid "unconfirmed"
+msgstr "nepotvrdené"
+
+#: includes/csv.php:96 includes/signatures.view.php:86
+msgid "yes"
+msgstr "áno"
+
+#: includes/csv.php:99 includes/signatures.view.php:88
+msgid "no"
+msgstr "nie"
+
+#: includes/emailpetition.php:87
+msgid "Read or edit the petition"
+msgstr "Čítať alebo upraviť petíciu"
+
+#: includes/emailpetition.php:87
+msgid "Read the petition"
+msgstr "Prečítať petíciu"
+
+#: includes/emailpetition.php:115 includes/help.php:6 includes/help.php:75
+#: includes/settings.view.php:155 includes/widget.php:88
+#: includes/widget.php:240
+msgid "Title"
+msgstr "Titul"
+
+#: includes/emailpetition.php:117 includes/widget.php:242
+msgid "Ms"
+msgstr "Pani"
+
+#: includes/emailpetition.php:118 includes/widget.php:243
+msgid "Mr"
+msgstr "Pán"
+
+#: includes/emailpetition.php:119 includes/widget.php:244
+msgid "Mrs"
+msgstr "Pani"
+
+#: includes/emailpetition.php:120 includes/widget.php:245
+msgid "Miss"
+msgstr "Slečna"
+
+#: includes/emailpetition.php:121 includes/widget.php:246
+msgid "Mx."
+msgstr "Mx."
+
+#: includes/emailpetition.php:122 includes/widget.php:247
+msgid "Dr."
+msgstr "Dr."
+
+#: includes/emailpetition.php:148 includes/signatures.view.php:45
+#: includes/signatures.view.php:58 includes/widget.php:264
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/emailpetition.php:155 includes/widget.php:270
+msgid "Confirm Email"
+msgstr "Potvrdiť e-mail"
+
+#: includes/emailpetition.php:215 includes/emailpetition.php:228
+#: includes/widget.php:192 includes/widget.php:207
+msgid "your signature"
+msgstr "váš podpis"
+
+#: includes/emailpetition.php:250 includes/widget.php:335
+msgid "BCC yourself"
+msgstr "Odošle vám kópiu e-mailu"
+
+#: includes/emailpetition.php:257 includes/widget.php:342
+msgid "Yes, I accept your "
+msgstr "Áno, akceptujem vase "
+
+#: includes/emailpetition.php:257 includes/widget.php:342
+msgid "privacy policy"
+msgstr "podmienky ochrany súkromia"
+
+#: includes/emailpetition.php:279 includes/widget.php:164
+msgid "of goal"
+msgstr "z cieľového počtu"
+
+#: includes/emailpetition.php:284 includes/emailpetition.php:320
+#: includes/widget.php:169
+msgid "signature"
+msgid_plural "signatures"
+msgstr[0] "podpis"
+msgstr[1] "popdis"
+msgstr[2] "popdis"
+
+#: includes/emailpetition.php:310 includes/widget.php:233
+msgid "Signature goal"
+msgstr "Cieľový počet podpisov"
+
+#: includes/emailpetition.php:315 includes/widget.php:229
+msgid "End date"
+msgstr "Dátum ukončenia petície"
+
+#: includes/emailpetition.php:316 includes/widget.php:230
+msgid "Signatures collected"
+msgstr "Vyzbieraných podpisov"
+
+#: includes/emailpetition.php:340
+msgid "Error: You must include a valid id."
+msgstr "Chyba: Musíte vložiť platné ID."
+
+#: includes/help.php:6
+msgid ""
+"Enter the title of your petition, which will appear at the top of the "
+"petition form."
+msgstr "Zadajte názov vašej petície - objaví sa nad formulárom petície."
+
+#: includes/help.php:7
+msgid ""
+"Use this option if do not wish to send petition emails to a target address."
+msgstr ""
+"Použiť, ak si neželáte zaslať e-mail s petíciou na cieľové e-mailové adresy."
+
+#: includes/help.php:8
+msgid ""
+"Enter the email address to which the petition will be sent. You may enter "
+"multiple email addresses, separated by commas."
+msgstr ""
+"Zadať e-mailové adresy, na ktoré má byť petícia poslaná. Môžete zadať viac "
+"adries oddelených čiarkou."
+
+#: includes/help.php:9
+msgid "Enter the subject of your petition email."
+msgstr "Zadajte predmet e-mailu s petíciou."
+
+#: includes/help.php:10
+msgid ""
+"Include a greeting to the recipient of your petition, such as \"Dear Sir,\" "
+"which will appear as the first line of the email."
+msgstr ""
+"Vložte pozdrav príjemcovi petície ako napríklad \"Vážený pán poslanec,\". "
+"Zobrazí sa na prvom riadku vašej petície."
+
+#: includes/help.php:11
+msgid "Enter the content of your petition email."
+msgstr "Vložte obsah emailu s petíciou."
+
+#: includes/help.php:14
+msgid ""
+"Enter a prepared tweet that will be presented to users when the Twitter "
+"button is clicked."
+msgstr ""
+"Vložte správu na Twitter, ktorá sa zobrazí, keď kliknete na tlačítko Twitter."
+
+#: includes/help.php:17
+msgid ""
+"Use this option to cause an email to be sent to the signers of your "
+"petition. This email contains a special link must be clicked to confirm the "
+"signer's email address. Petition emails will not be sent until the signature "
+"is confirmed."
+msgstr ""
+"Použite na zaslanie e-mailu osobám, ktoré podpísali petíciu. Tento e-mail "
+"obsahuje špeciálny link na potvrdenie e-mailovej adresy osoby, ktorá petíciu "
+"podpisuje. E-mail s petíciou nebude odoslaný, kým podpis nebude potvrdený."
+
+#: includes/help.php:18
+msgid "Allow messages to be edited"
+msgstr "Povoliť úpravu textu správy"
+
+#: includes/help.php:18
+msgid ""
+"Check this option to allow signatories to customize the text of their "
+"petition email."
+msgstr "Zaškrtnite, ak chcete povoliť úpravu textu e-mailu s petíciou."
+
+#: includes/help.php:19
+msgid ""
+"Enter the number of signatures you hope to collect. This number is used to "
+"calculate the progress bar display."
+msgstr ""
+"Vložte počet podpisov, ktoré by ste chceli zozbierať. Toto číslo sa bude "
+"ťahať do progress baru."
+
+#: includes/help.php:20
+msgid "Use this option to stop collecting signatures on a specific date."
+msgstr "Použite, ak chcete ukončiť zbieranie podpisov v určitý dátum."
+
+#: includes/help.php:23
+msgid "Select the address fields to display in the petition form."
+msgstr ""
+"Vyberte riadky adresy, ktoré sa majú zobrazovať v podpisovom formulári "
+"petície."
+
+#: includes/help.php:24
+msgid "Add a custom field to the petition form for collecting additional data."
+msgstr ""
+"Pridať vlastné pole do formulára na podpis petície, ak chcete zbierať "
+"dodatočné informácie."
+
+#: includes/help.php:25
+msgid ""
+"Include a checkbox that allows users to consent to receiving further email."
+msgstr ""
+"Pridajte políčko, ktoré dovolí užívateľom dostávať ďalšie e-maily o petícii."
+
+#: includes/help.php:56
+msgid ""
+"These settings control the display of the [emailpetition] shortcode and "
+"sidebar widget."
+msgstr ""
+"Tieto nastavenia upravujú zobrazovanie shortkódu [emailpetition] a widget."
+
+#: includes/help.php:57 includes/settings.view.php:76
+msgid "Petition Theme"
+msgstr "Vzhľad petície"
+
+#: includes/help.php:57
+msgid "Select a CSS theme that will control the appearance of petition forms."
+msgstr ""
+"Vyberte akým spôsobom má byť použité štýlovanie CSS vo formulári petície."
+
+#: includes/help.php:58 includes/settings.view.php:83
+msgid "Widget Theme"
+msgstr "Vzhľad widgetu"
+
+#: includes/help.php:58
+msgid ""
+"Select a CSS theme that will control the appearance of petition widgets."
+msgstr "Vyberte akým spôsobom má byť použité štýlovanie CSS vo widget."
+
+#: includes/help.php:59 includes/settings.view.php:90
+msgid "Submit Button Text"
+msgstr "Text na tlačítku na odoslanie podpisu"
+
+#: includes/help.php:59
+msgid ""
+"Enter the text that displays in the orange submit button on petition forms."
+msgstr ""
+"Vložte text, ktorý sa zobrazí na oranžovom tlačítku na odoslanie podpisového "
+"formulára."
+
+#: includes/help.php:60 includes/settings.view.php:94
+msgid "Success Message"
+msgstr "Správa o úspešnom zaslaní"
+
+#: includes/help.php:60
+msgid ""
+"Enter the text that appears when a user successfully signs your petition "
+"with a unique email address."
+msgstr "Vložte text, ktorý sa zobrazí, keď užívateľ úspešne podpíše petíciu."
+
+#: includes/help.php:61 includes/settings.view.php:102
+msgid "Share Message"
+msgstr "Správa pre zdieľanie"
+
+#: includes/help.php:61
+msgid ""
+"Enter the text that appears above the Twitter and Facebook buttons after the "
+"petition form has been submitted."
+msgstr ""
+"Vložiť text, ktorý sa zobrazí nad tlačítkami Twitter a Facebook po tom, ako "
+"je petícia podpísaná."
+
+#: includes/help.php:62 includes/settings.view.php:106
+msgid "Expiration Message"
+msgstr "Správa pre vypršanie lehoty"
+
+#: includes/help.php:62
+msgid ""
+"Enter the text to display in place of the petition form when a petition is "
+"past its expiration date."
+msgstr ""
+"Zadajte text, ktorý sa zobrazí namiesto formulára na podpis petície, ak už "
+"je petícia neaktívna."
+
+#: includes/help.php:63 includes/settings.view.php:110
+msgid "Already Signed Message"
+msgstr "Správa pre podpísanú petíciu"
+
+#: includes/help.php:63
+msgid ""
+"Enter the text to display when a petition is signed using an email address "
+"that has already been submitted."
+msgstr ""
+"Zadajte text, ktorý sa zobrazí, ak e-mailová adresa už bola použitá pri "
+"podpise tejto petície."
+
+#: includes/help.php:64 includes/settings.view.php:114
+msgid "Opt-in Default"
+msgstr "Nastavenia newsttellera"
+
+#: includes/help.php:64
+msgid "Choose whether the opt-in checkbox is checked or unchecked by default."
+msgstr ""
+"Zvoľte či má byť možnosť odoberať newstteller defaultne zaškrtnutá alebo "
+"odškrtnutá. (Pre potreby GDPR odškrtnutá.)"
+
+#: includes/help.php:65 includes/settings.view.php:121
+msgid "Display signature count"
+msgstr "Zobraziť počet podpisov"
+
+#: includes/help.php:65
+msgid ""
+"Choose whether you wish to display the number of signatures that have been "
+"collected."
+msgstr "Zvoliť ak chcete zobraziť počet zozbieraných podpisov."
+
+#: includes/help.php:68
+msgid "These settings control the content of the confirmation emails."
+msgstr "Toto nastavenie upravuje obsah overovacích e-mailov."
+
+#: includes/help.php:69 includes/settings.view.php:215
+msgid "Email From"
+msgstr "Formulár e-mailu"
+
+#: includes/help.php:69
+msgid ""
+"Enter the email address associated with your website. Confirmation emails "
+"will be sent from this address."
+msgstr ""
+"Vložiť e-mail adresu prepojenú s vašou webstránkou. Potvrdzovacie e-maily "
+"budú odosielané z tejto adresy."
+
+#: includes/help.php:70
+msgid "Enter the subject of the confirmation email."
+msgstr "Vložiť predmet overovacieho e-mailu."
+
+#: includes/help.php:71 includes/settings.view.php:223
+msgid "Email Message"
+msgstr "Správa e-mailu"
+
+#: includes/help.php:71
+msgid "Enter the content of the confirmation email."
+msgstr "Vložiť obsah overovacieho e-mailu."
+
+#: includes/help.php:74
+msgid "These settings control the display of the [signaturelist] shortcode."
+msgstr "Tieto nastavenie upravujú zobrazovanie shortkódu [signaturelist]."
+
+#: includes/help.php:75
+msgid "Enter the text that appears above the signature list."
+msgstr "Vložiť text, ktorý sa objaví nad zoznamom podpisov."
+
+#: includes/help.php:76 includes/settings.view.php:158
+msgid "Theme"
+msgstr "Vzhľad"
+
+#: includes/help.php:76
+msgid "Select a CSS theme that will control the appearance of signature lists."
+msgstr "Zvoliť CSS štýl, ktorý bude upravovať vizuál zoznamu podpisov."
+
+#: includes/help.php:77 includes/settings.view.php:165
+msgid "Rows"
+msgstr "Riadky"
+
+#: includes/help.php:77
+msgid ""
+"Enter the number of signatures that will be displayed in the signature list."
+msgstr "Vložiť počet podpisov, ktoré sa budú zobrazovať v zozname podpisov."
+
+#: includes/help.php:78 includes/settings.view.php:176
+msgid "Columns"
+msgstr "Stĺpce"
+
+#: includes/help.php:78
+msgid "Select the columns that will appear in the signature list."
+msgstr "Zvoliť stĺpce, ktoré sa budú zobrazovať v zozname podpisov."
+
+#: includes/help.php:81
+msgid ""
+"These settings control the look of the plugin's options pages within the "
+"WordPress administrator."
+msgstr ""
+"Tieto nastavenia upravujú vzhľad nastavenia pluginu v administrácii "
+"WordPressu."
+
+#: includes/help.php:82 includes/settings.view.php:237
+msgid "Petitions table shows"
+msgstr "Tabuľka petícií zobrazuje"
+
+#: includes/help.php:82
+msgid ""
+"Enter the number of rows to display in the \"Email Petitions\" table "
+"(default=20)"
+msgstr ""
+"Vložiť počet riadkov zobrazovaných v tabuľke \"Email Petitions"
+"\" (defaultne=20)"
+
+#: includes/help.php:83 includes/settings.view.php:241
+msgid "Signatures table shows"
+msgstr "Tabuľka podpisov zobrazuje"
+
+#: includes/help.php:83
+msgid ""
+"Enter the number of rows to display in the \"Signatures\" table (default=50)"
+msgstr ""
+"Vložiť počet riadkov, ktoré zobrazujú tabuľku \"Podpisy\" (defaultne=50)"
+
+#: includes/help.php:84 includes/settings.view.php:246
+msgid "CSV file includes"
+msgstr "Súbor CVS obsahuje"
+
+#: includes/help.php:84
+msgid ""
+"Select the subset of signatures that will be included in CSV file downloads"
+msgstr "Vybrať subset podpisov, ktoré budú zahrnuté v súbore CSV na stiahnutie"
+
+#: includes/help.php:92 includes/settings.view.php:66
+#: includes/settings.view.php:73
+msgid "Petition Form"
+msgstr "Formulár petície"
+
+#: includes/help.php:97 includes/settings.view.php:67
+#: includes/settings.view.php:152
+msgid "Signature List"
+msgstr "Zoznam podpisov"
+
+#: includes/help.php:102 includes/settings.view.php:68
+#: includes/settings.view.php:212
+msgid "Confirmation Emails"
+msgstr "Potvrdzovací e-mail"
+
+#: includes/help.php:107 includes/settings.view.php:69
+#: includes/settings.view.php:234
+msgid "Admin Display"
+msgstr "Zobrazenie administrácie"
+
+#: includes/import.view.php:62
+msgid "Import petitions from SpeakUp to SpeakOut!"
+msgstr "Importovať petície zo SpeakUp do SpeakOut!"
+
+#: includes/install.php:70
+msgid "Sign Now"
+msgstr "Podpísať"
+
+#: includes/install.php:71
+msgid "This petition is now closed."
+msgstr "Petícia je ukončená."
+
+#: includes/install.php:72
+msgid "Thank you"
+msgstr "Ďakujeme"
+
+#: includes/install.php:72
+msgid "Your signature has been added."
+msgstr "Váš podpis bol pridaný."
+
+#: includes/install.php:73
+msgid "This petition has already been signed using your email address."
+msgstr "Vaša e-mail adresa už bola použitá pri podpise tejto petície."
+
+#: includes/install.php:74
+msgid "Share this with your friends:"
+msgstr "Zdieľať s vašimi priateľmi:"
+
+#: includes/install.php:75 includes/install.php:231
+msgid "Please confirm your email address"
+msgstr "Prosím, potvrďte vašu e-mailovú adresu"
+
+#: includes/install.php:76 includes/install.php:234
+msgid "Hello"
+msgstr "Ahoj"
+
+#: includes/install.php:76
+msgid "Thank you for signing our petition %petition_title% "
+msgstr "Ďakujeme, že ste podpísali petíciu %petition_title% "
+
+#: includes/install.php:76 includes/install.php:234
+msgid ""
+"Please confirm your email address by clicking or copying and pasting the "
+"link below:"
+msgstr "Prosím, potvrďte vašu e-mailovú adresu kliknutím na tento link:"
+
+#: includes/install.php:81 includes/install.php:240
+msgid "Latest Signatures"
+msgstr "Najnovšie podpisy"
+
+#: includes/install.php:234
+msgid "Thank you for signing our petition"
+msgstr "Ďakujeme, že ste podpísali našu petíciu"
+
+#: includes/petitions.php:44 includes/petitions.php:55
+msgid "Email Petitions"
+msgstr "Email petície"
+
+#: includes/petitions.php:46
+msgid "Petition deleted."
+msgstr "Petícia bola zmazaná."
+
+#: includes/petitions.view.php:9
+msgid "All Petitions"
+msgstr "Všetky petície"
+
+#: includes/petitions.view.php:17 includes/petitions.view.php:27
+msgid "ID"
+msgstr "ID"
+
+#: includes/petitions.view.php:18 includes/petitions.view.php:28
+msgid "Petition name"
+msgstr "Názov petície"
+
+#: includes/petitions.view.php:19 includes/petitions.view.php:29
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/petitions.view.php:36
+msgid "No petitions found."
+msgstr "Nenašla sa žiadna petícia."
+
+#: includes/petitions.view.php:49
+msgid "Edit"
+msgstr "Upraviť"
+
+#: includes/petitions.view.php:50 includes/signatures.view.php:101
+msgid "Delete"
+msgstr "Zmazať"
+
+#: includes/petitions.view.php:54
+msgid "display petition"
+msgstr "zobraziť petíciu"
+
+#: includes/petitions.view.php:55
+msgid "display signature list"
+msgstr "zobraziť zoznam podpisov"
+
+#: includes/petitions.view.php:56
+msgid "display signature count"
+msgstr "zobraziť počet podpisov"
+
+#: includes/petitions.view.php:57
+msgid "display signature goal"
+msgstr "zobraziť cieľový počet podpisov"
+
+#: includes/petitions.view.php:65
+msgid "View Signatures"
+msgstr "Náhľad podpisov"
+
+#: includes/petitions.view.php:75
+msgid ""
+"Delete this petition permanently? All of the petition's signatures will be "
+"deleted as well."
+msgstr "Natrvalo odstrániť túto petíciu? Petičné podpisy sa odstránia všetky."
+
+#: includes/settings.php:31
+msgid "Settings updated."
+msgstr "Nastavenia boli zmenené."
+
+#: includes/settings.view.php:78 includes/settings.view.php:85
+#: includes/settings.view.php:160
+msgid "Default"
+msgstr "Predvolený"
+
+#: includes/settings.view.php:79
+msgid "Basic"
+msgstr "Základný"
+
+#: includes/settings.view.php:80 includes/settings.view.php:86
+#: includes/settings.view.php:161
+msgid "None"
+msgstr "Žiadne"
+
+#: includes/settings.view.php:80 includes/settings.view.php:86
+#: includes/settings.view.php:161
+msgid "use"
+msgstr "použiť"
+
+#: includes/settings.view.php:97 includes/settings.view.php:226
+msgid "Accepted variables:"
+msgstr "Povolené premenné:"
+
+#: includes/settings.view.php:98 includes/settings.view.php:227
+msgid "Accepted tags:"
+msgstr "Povolené tagy:"
+
+#: includes/settings.view.php:116
+msgid "Checked"
+msgstr "Označené"
+
+#: includes/settings.view.php:117
+msgid "Unchecked"
+msgstr "Neoznačené"
+
+#: includes/settings.view.php:123 includes/settings.view.php:130
+#: includes/settings.view.php:137 includes/settings.view.php:144
+msgid "Yes"
+msgstr "Áno"
+
+#: includes/settings.view.php:124 includes/settings.view.php:131
+#: includes/settings.view.php:138
+msgid "No"
+msgstr "NIE"
+
+#: includes/settings.view.php:128
+msgid "Display honorific field"
+msgstr "Zobraziť zdvorilostné pole"
+
+#: includes/settings.view.php:135
+msgid "Display BCC field"
+msgstr "Zobraziť BCC pole"
+
+#: includes/settings.view.php:142
+msgid "Display Privacy Policy accept?"
+msgstr "Zobraziť súhlas so Zásadami ochrany osobných údajov?"
+
+#: includes/settings.view.php:144
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/settings.view.php:166
+msgid "leave blank to display all"
+msgstr "nevypĺňať, ak chcete zobraziť všetko"
+
+#: includes/settings.view.php:169
+msgid "Display"
+msgstr "Zobraziť"
+
+#: includes/settings.view.php:171
+msgid "table"
+msgstr "tabuľka"
+
+#: includes/settings.view.php:172
+msgid "long list (comma separated)"
+msgstr "dlhý zoznam (oddelené čiarkami)"
+
+#: includes/settings.view.php:197 includes/signatures.view.php:49
+#: includes/signatures.view.php:62
+msgid "Date"
+msgstr "Dátum"
+
+#: includes/settings.view.php:201
+msgid "Privacy"
+msgstr "Ochrana súkromia"
+
+#: includes/settings.view.php:203
+msgid "enabled - only show first letter of surname"
+msgstr "povolené - zobraziť iba prvé písmeno priezviska"
+
+#: includes/settings.view.php:204
+msgid "disabled"
+msgstr "nepovolené"
+
+#: includes/settings.view.php:238
+msgid "rows - default = 20"
+msgstr "riadky - defaultne = 20"
+
+#: includes/settings.view.php:242
+msgid "rows - default = 50"
+msgstr "riadky - defaultne = 50"
+
+#: includes/settings.view.php:248
+msgid "All signatures"
+msgstr "Všetky podpisy"
+
+#: includes/settings.view.php:249
+msgid "Only opt-in signatures"
+msgstr "Iba podpisy pre newstteller"
+
+#: includes/settings.view.php:250
+msgid "Only double opt-in signatures"
+msgstr "Iba potvrdené podpisy pre newstteller"
+
+#: includes/settings.view.php:250
+msgid "opt-in + confirmed"
+msgstr "newstteller a potvrdené"
+
+#: includes/settings.view.php:256
+msgid "Save Changes"
+msgstr "Uložiť zmeny"
+
+#: includes/signatures.php:48 includes/signatures.php:120
+msgid "All Signatures"
+msgstr "Všetky podpisy"
+
+#: includes/signatures.php:52
+msgid "Signature deleted."
+msgstr "Podpis bol vymazaný."
+
+#: includes/signatures.php:110
+msgid "Confirmation emails sent."
+msgstr "Potvrdzovaní e-mail bol zaslaný."
+
+#: includes/signatures.view.php:16
+msgid "Select petition"
+msgstr "Vyber petíciu"
+
+#: includes/signatures.view.php:26
+msgid "Download as CSV"
+msgstr "Stiahni ako CSV"
+
+#: includes/signatures.view.php:27
+msgid "Re-send confirmations"
+msgstr "Znovu odoslať potvrdenie"
+
+#: includes/signatures.view.php:28
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each unconfirmed signature."
+msgstr ""
+"Ste si istý? Potvrdzovací e-mail bude poslaný každému nepotvrdenému podpisu."
+
+#: includes/signatures.view.php:44 includes/signatures.view.php:57
+msgid "Name"
+msgstr "Meno"
+
+#: includes/signatures.view.php:48 includes/signatures.view.php:61
+msgid "Opt-in"
+msgstr "Newstteller"
+
+#: includes/signatures.view.php:50 includes/signatures.view.php:63
+msgid "IP"
+msgstr "IP"
+
+#: includes/widget.php:15
+msgid "Display a petition form."
+msgstr "Zobraziť formulár petície."
+
+#: includes/widget.php:77
+msgid "Sign the Petition"
+msgstr "Podpísať petíciu"
+
+#: includes/widget.php:89
+msgid "Sharing URL"
+msgstr "URL na zdieľanie"
+
+#: includes/widget.php:90
+msgid "Call to Action"
+msgstr "Výzva k akcii"
+
+#: includes/widget.php:301
+msgid "Post Code"
+msgstr "Kód príspevku"
+
+#: speakout-email-petitions.php:63
+msgid "Support"
+msgstr "Podpora"
+
+#: speakout-email-petitions.php:64
+msgid "Donate"
+msgstr "Prispieť"
+
+#. Plugin URI of the plugin/theme
+msgid "https://speakout.123host.net.au/"
+msgstr "https://Speakout.123host.net.au/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create custom email petition forms and include them on your site via "
+"shortcode or widget. Signatures are saved in the database and can be "
+"exported to CSV."
+msgstr ""
+"Vytvoriť vlastný formuláre pre petície a zobraziť ich na vašej webstránke "
+"pomocou shortkódu alebo widget. Podpisy budú uložené do databázy a môžu byť "
+"exportované do CSV."
+
+#. Author of the plugin/theme
+msgid "Steve D forked from speakup"
+msgstr "Steve D vidlica od speakup"
+
+#. Author URI of the plugin/theme
+msgid "https://123host.com.au"
+msgstr "https://123host.com.au"

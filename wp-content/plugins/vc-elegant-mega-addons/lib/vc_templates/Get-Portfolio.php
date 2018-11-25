@@ -1,0 +1,1 @@
+[vc_row][vc_column][vcmp_get_posts get_posts_types="works" get_posts_col_size="33%" get_posts_effect="true" get_posts_title="true" get_posts_excerpt="true"][/vc_column][/vc_row]

@@ -1,0 +1,76 @@
+.vcmpisometricbox {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 60px;
+}
+.vcmpisometricbox .vcmpisometricface,
+.vcmpisometricbox .vcmpisometricshadow {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+.vcmpisometricbox:hover .vcmpisometricface,
+.vcmpisometricbox:hover .vcmpisometricshadow {
+  -webkit-transform: rotateX(0) rotateZ(0);
+          transform: rotateX(0) rotateZ(0);
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+.vcmpisometricbox:hover .vcmpisometricshadow {
+  vcmpisometricbox-shadow: 0 0 15px #ccc;
+}
+
+.vcmpisometricshadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  -webkit-transform: rotateX(45deg) rotateZ(-30deg);
+          transform: rotateX(45deg) rotateZ(-30deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  z-index: -1;
+  vcmpisometricbox-shadow: -60px 60px 15px #eee;
+}
+
+.vcmpisometricface {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #ccc;
+  margin: 0 auto;
+  -webkit-transform: rotateX(45deg) rotateZ(-30deg);
+          transform: rotateX(45deg) rotateZ(-30deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.vcmpisometricface img {
+	width: 100%;
+	margin:0 !important;
+}
+.vcmpisometricface:before {
+  content: "";
+  position: absolute;
+  bottom: -7.5px;
+  left: 0;
+  background-color: #ddd;
+  width: 100%;
+  height: 15px;
+  display: block;
+  -webkit-transform: rotateX(90deg) translateY(-7.5px);
+          transform: rotateX(90deg) translateY(-7.5px);
+}
+.vcmpisometricface:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -7.5px;
+  width: 15px;
+  height: 100%;
+  background-color: #c4c4c4;
+  -webkit-transform: rotateY(90deg) translateX(7.5px);
+          transform: rotateY(90deg) translateX(7.5px);
+}
